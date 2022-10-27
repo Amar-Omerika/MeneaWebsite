@@ -28,7 +28,7 @@ function NavSubLinks({sublinks}) {
         {sublinks.map((sublink, i) => {
           return (
             <li className='lg:p-2' key={`sublink-${i}`}>
-              <Link className='transition-border duration-75 border-b-2 border-b-transparent hover:border-b-lightBlue hover:text-lightBlue' to={sublink.link}>{sublink.name}</Link>
+              <Link className='transition duration-150 border-b-2 border-b-transparent hover:border-b-lightBlue hover:text-lightBlue' to={sublink.link}>{sublink.name}</Link>
             </li> 
           )
           })

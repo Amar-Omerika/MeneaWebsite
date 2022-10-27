@@ -64,7 +64,7 @@ function Navbar() {
 <AnimatePresence>
     <motion.nav transition={{layout: {duration:0.5}}} layout className='h-max w-full font-semibold mx-auto fixed top-0 left-0 right-0 bg-white'>
       <motion.div layout className='bg-white px-6 flex flex-wrap items-center justify-between lg:mx-32'>
-        <div className='w-full lg:w-1/3 flex justify-between' >
+        <div className='w-full lg:w-1/4 flex justify-between' >
           <div className='flex items-center justify-center cursor-pointer'>
             <motion.span layout="position">Logo Goes Here</motion.span>
             <span className='sr-only' >Company Logo</span>
