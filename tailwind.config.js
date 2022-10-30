@@ -2,11 +2,10 @@
 module.exports = {
 	content: ["./src/**/*.{js,jsx,ts,tsx}"],
 	theme: {
-		fontFamily: {
-			customfont: ["sans-serif"],
-		},
-
 		extend: {
+			fontFamily: {
+				customfont: ["Rajdhani", "sans-serif"],
+			},
 			colors: {
 				gray: "#bcc4db",
 				beige: "#c0a9b0",
