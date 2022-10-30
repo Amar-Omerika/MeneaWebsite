@@ -24,7 +24,10 @@ module.exports = {
 				desktop: "1280px",
 				// => @media (min-width: 1280px) { ... }
 			},
+			animation: {
+				ping: "ping 1s cubic-bezier(0, 0, 0.2, 1) infinite",
+			},
 		},
 	},
-	plugins: [],
+	plugins: [require("tailwindcss-animate")],
 };
