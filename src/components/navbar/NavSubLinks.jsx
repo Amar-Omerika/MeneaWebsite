@@ -4,23 +4,26 @@ import { motion } from 'framer-motion'
 
 function NavSubLinks({sublinks}) {
   
-  const hoverClasses = 'lg:absolute lg:w-max lg:bg-white top-16 lg:hidden lg:group-hover:block lg:hover:block lg:p-4'
+  const hoverClasses = 'lg:absolute lg:w-max lg:bg-white top-16 lg:hidden lg:group-hover:block lg:hover:block lg:p-4 lg:shadow-xl'
   
 
   const variants = {
     initial: {
+      height:0,
       x:-100,
       opacity: 0,
     },
     animate : {
+      height: "max-content",
       x:0,
       opacity:1,
-    },
-    exit : {
-      x:-100,
-      opacity:0,
+      transition: {
+        duration: .5,
+      }
     }
   }
+  
+
 
   if(sublinks) {
     return (

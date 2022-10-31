@@ -8,6 +8,7 @@ function NavLinks({link}) {
   const [open, setOpen] = useState(false);
 
 
+
   if(link) {
   return (
     <AnimatePresence>
@@ -15,7 +16,7 @@ function NavLinks({link}) {
           <div className={`lg:py-5 relative group`}>
             <motion.div className='flex justify-between w-full lg:w-max'>
               <Link className='hover:text-lightBlue' to='/'>{link.name}</Link>
-              {link.sublinks.length !==0 && <span onClick={()=>setOpen(!open)} className='cursor-pointer lg:hidden'>+</span>}
+              {link.sublinks.length !==0 && <span onClick={()=>setOpen(!open)} className='cursor-pointer lg:hidden'>{open ? '-' : '+'}</span>}
             </motion.div>
 
             <motion.div layout className="hidden lg:block">
