@@ -1,66 +1,65 @@
-import React, { useState } from 'react'
-import NavLinks from './NavLinks'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
-import { AnimatePresence, motion } from 'framer-motion';
+/* eslint-disable jsx-a11y/alt-text */
+import React, { useState } from "react";
+import NavLinks from "./NavLinks";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { AnimatePresence, motion } from "framer-motion";
+import logo from "../../assets/menea_logo.png";
+import menea_text_logo from "../../assets/menea.png";
 
 function Navbar() {
+	const [open, setOpen] = useState(false);
+	const links = [
+		{
+			name: "Home",
+			sublinks: [],
+		},
+		{
+			name: "Company",
+			sublinks: [
+				{
+					name: "Modern Technology",
+					link: "/",
+				},
+				{
+					name: "Career",
+					link: "/",
+				},
+			],
+		},
+		{
+			name: "Mechanical Engineering",
+			sublinks: [
+				{
+					name: "Modern Technology",
+					link: "/",
+				},
+				{
+					name: "Career",
+					link: "/",
+				},
+			],
+		},
+		{
+			name: "BIM Services",
+			sublinks: [
+				{
+					name: "Modern Technology",
+					link: "/",
+				},
+				{
+					name: "Career",
+					link: "/",
+				},
+			],
+		},
+	];
 
-  const [open, setOpen] = useState(false);
-  const links = [
-    {
-      name:'Home',
-      sublinks: [],
-    },
-    {
-      name:'Company',
-      sublinks: [
-        {
-          name: 'Modern Technology',
-          link: '/',
-        },
-        {
-          name: 'Career',
-          link: '/',
-        }
-      ]
-    },
-    {
-      name:'Mechanical Engineering',
-      sublinks: [
-        {
-          name: 'Modern Technology',
-          link: '/',
-        },
-        {
-          name: 'Career',
-          link: '/',
-        }
-      ]
-    },
-    {
-      name:'BIM Services',
-      sublinks: [
-        {
-          name: 'Modern Technology',
-          link: '/',
-        },
-        {
-          name: 'Career',
-          link: '/',
-        }
-      ]
-    },
-  ]
+	const handleNav = () => {
+		setOpen(!open);
+	};
 
-  const handleNav = () => {
-    setOpen(!open);
-  }
-
-
-
-
-  return (
+	return (
 		<AnimatePresence>
 			<motion.nav
 				transition={{ layout: { duration: 0.5 } }}
@@ -73,7 +72,10 @@ function Navbar() {
 				>
 					<div className="w-full lg:w-1/4 flex justify-between ">
 						<div className="flex items-center justify-center cursor-pointer">
-							<motion.span layout="position">Logo Goes Here</motion.span>
+							<motion.span layout="position">
+								<img className="h-[50px] w-[50px]" src={logo} />
+							</motion.span>
+							<img className="ml-2" src={menea_text_logo} />
 							<span className="sr-only">Company Logo</span>
 						</div>
 
@@ -123,4 +125,4 @@ function Navbar() {
 	);
 }
 
-export default Navbar
+export default Navbar;

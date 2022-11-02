@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/alt-text */
+import logo from "../../assets/menea_logo.png";
+
 const navigation = {
 	services: [
 		{ name: "Mechanical Engineering", href: "#" },
@@ -76,11 +79,7 @@ export default function Footer() {
 			<div className="mx-auto  py-12 px-4 sm:px-6 lg:py-16 lg:px-8 bg-[#6987c9]">
 				<div className="xl:grid xl:grid-cols-3 xl:gap-8">
 					<div className="space-y-8 xl:col-span-1">
-						<img
-							className="h-10"
-							src="https://tailwindui.com/img/logos/mark.svg?color=gray&shade=300"
-							alt="Company name"
-						/>
+						<img className="h-[50px] w-[50px]" src={logo} />
 						<p className="text-base  font-customfont text-[#fff]">
 							Making the world a better place through constructing elegant
 							hierarchies.
