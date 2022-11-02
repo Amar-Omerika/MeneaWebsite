@@ -3,6 +3,7 @@ import {
 	UsersIcon,
 	WrenchScrewdriverIcon,
 } from "@heroicons/react/24/outline";
+import { motion } from "framer-motion";
 
 const actions = [
 	{
@@ -35,13 +36,26 @@ const actions = [
 	},
 ];
 
+const variants = {
+  initial: {
+    opacity: 0,
+  },
+  animate: {
+    opacity: 1,
+    transition: {
+      delay: .8,
+      duration: .6,
+    }
+  },
+}
+
 function classNames(...classes) {
 	return classes.filter(Boolean).join(" ");
 }
 
 export default function ServiceCard() {
 	return (
-		<div className="divide-y divide-gray-200 overflow-hidden rounded-lg bg-gray-200 shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0">
+		<motion.div variants={variants} initial="initial" animate="animate" className="max-w-[1024px] mx-auto divide-y divide-gray-200 overflow-hidden rounded-lg bg-gray-200 shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0">
 			{actions.map((action, actionIdx) => (
 				<div
 					key={action.title}
@@ -54,7 +68,7 @@ export default function ServiceCard() {
 						actionIdx === actions.length - 1
 							? "rounded-bl-lg rounded-br-lg sm:rounded-bl-none"
 							: "",
-						"relative group bg-white p-6 focus-within:ring-2 focus-within:ring-inset hover:bg-lightBlue animate-in fade-in-25"
+						"relative group bg-white p-6 focus-within:ring-2 focus-within:ring-inset hover:bg-lightBlue md:duration-500"
 					)}
 				>
 					<div>
@@ -68,8 +82,8 @@ export default function ServiceCard() {
 							<action.icon className="h-6 w-6" aria-hidden="true" />
 						</span>
 					</div>
-					<div className="mt-8">
-						<h3 className="text-lg font-medium font-customfont">
+					<div className="mt-8 hover:text-white ">
+						<h3 className="text-xl font-bold font-customfont">
 							<a href={action.href} className="focus:outline-none">
 								{/* Extend touch target to entire panel */}
 								<span className="absolute inset-0" aria-hidden="true" />
@@ -96,6 +110,6 @@ export default function ServiceCard() {
 					</span>
 				</div>
 			))}
-		</div>
+		</motion.div>
 	);
 }

@@ -64,7 +64,7 @@ function Navbar() {
 			<motion.nav
 				transition={{ layout: { duration: 0.5 } }}
 				layout
-				className="h-max w-full font-semibold mx-auto fixed top-0 left-0 right-0 bg-white shadow-md"
+				className="h-max w-screen max-w-full font-semibold mx-auto fixed top-0 left-0 right-0 z-[999] bg-white shadow-md"
 			>
 				<motion.div
 					layout

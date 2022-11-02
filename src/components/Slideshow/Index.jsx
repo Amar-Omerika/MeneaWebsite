@@ -7,18 +7,50 @@ import { EffectFade } from "swiper";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
+import { AnimatePresence, motion } from "framer-motion";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function SliderComponent() {
+
+
+  const variants = {
+    item : {
+      initial: {
+        opacity: 0,
+      },
+      animate: {
+        opacity: 1,
+        transition: {
+          duration: .4,
+          when: 'beforeChildren',
+          staggerChildren: 0.1,
+        }
+      },
+    },
+    items : {
+      initial: {
+        opacity:0,
+        transform: "translateY(-30%)",
+      },
+      animate: {
+        opacity:1,
+        transform: "translateY(0%)",
+        transition: {
+          duration: .6,
+        }
+      },
+    },
+  }
+
 	return (
-		<>
+		<AnimatePresence>
 			<Swiper
 				spaceBetween={30}
 				centeredSlides={true}
 				autoplay={{
-					delay: 3500,
+					delay: 4500,
 					disableOnInteraction: false,
 				}}
 				// pagination={{
@@ -32,38 +64,38 @@ export default function SliderComponent() {
 			>
 				<SwiperSlide>
 					<img
-						className="object-fill w-full h-[500px]"
-						src="https://zerohourparts.com/wp-content/uploads/person_welding.jpg"
+						className="object-cover w-full h-[500px]"
+						src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
 					/>
-					<div className="Z-50 mt-[-350px] w-4/5 mb-20 ml-14 flex-col flex h-full">
-						<p className=" text-white font-customfont desktop:text-[50px] tablet:text-[25px] desktop:py-2 tablet:py-2 font-bold">
+					<motion.div variants={variants.item} initial="initial" animate="animate" className="Z-50 mt-[-350px] w-4/5 mb-20 ml-14 flex-col flex justify-between min-h-[250px] ">
+						<motion.p variants={variants.items} initial="initial" animate="animate" className=" text-white font-customfont text-3xl font-bold">
 							MECHANICAL
-						</p>
-						<p className=" text-white font-customfont desktop:text-[50px] tablet:text-[25px] font-bold">
+						</motion.p>
+						<motion.p variants={variants.items} initial="initial" animate="animate" className=" text-white font-customfont text-3xl font-bold">
 							ENGINEERING
-						</p>
-						<p className=" text-white font-customfont desktop:text-[20px] tablet:text-sm  font-bold">
+						</motion.p>
+						<motion.p variants={variants.items} initial="initial" animate="animate" className=" text-white font-customfont desktop:text-[20px] tablet:text-sm  font-bold">
 							Lorem Ipsum is simply dummy text of the printing and typesetting
 							industry. Lorem Ipsum has been the industry's standard dummy text
-						</p>
+						</motion.p>
 						<button
 							type="button"
-							className="animate-pulse inline-flex items-center  font-customfont w-[120px] h-16 text-center rounded border border-transparent bg-lightBlue px-3.5 py-1.5 text-lg font-medium text-white shadow-sm mt-3"
+							className="animate-pulse hover:animate-none inline-flex items-center justify-center font-customfont w-[120px] h-16 text-center rounded border border-transparent bg-lightBlue px-3.5 py-1.5 text-lg font-medium text-white shadow-sm mt-3"
 						>
 							Read More
 						</button>
-					</div>
+					</motion.div>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img
-						className="object-fill w-full h-[500px]"
-						src="https://www.outsourcinginsight.com/wp-content/uploads/2017/11/Outsource-Engineering.jpg"
+						className="object-cover w-full h-[500px]"
+            src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
 					/>
-					<div className="Z-50 mt-[-350px] w-4/5 mb-20 ml-14 flex-col flex">
-						<p className=" text-white font-customfont desktop:text-[50px] tablet:text-[30px] desktop:py-2  tablet:py-2 font-bold">
+					<div className="Z-50 mt-[-350px] w-4/5 mb-20 ml-14 flex-col flex justify-between min-h-[250px] ">
+						<p className=" text-white font-customfont text-3xl font-bold">
 							BIM
 						</p>
-						<p className=" text-white font-customfont desktop:text-[50px] tablet:text-[30px] font-bold">
+						<p className=" text-white font-customfont text-3xl font-bold">
 							SERVICES
 						</p>
 						<p className=" text-white font-customfont desktop:text-[20px] tablet:text-sm  font-bold">
@@ -72,7 +104,7 @@ export default function SliderComponent() {
 						</p>
 						<button
 							type="button"
-							className="animate-pulse inline-flex items-center  font-customfont  w-[120px] h-16 text-center rounded border border-transparent bg-lightBlue px-3.5 py-1.5 text-lg font-medium text-white shadow-sm mt-3"
+							className="animate-pulse hover:animate-none inline-flex items-center justify-center font-customfont  w-[120px] h-16 text-center rounded border border-transparent bg-lightBlue px-3.5 py-1.5 text-lg font-medium text-white shadow-sm mt-3"
 						>
 							Read More
 						</button>
@@ -80,14 +112,14 @@ export default function SliderComponent() {
 				</SwiperSlide>
 				<SwiperSlide>
 					<img
-						className="object-fill w-full h-[500px]"
-						src="http://www.mckvie.edu.in/wp-content/uploads/2021/06/mechanical-engineering.jpg"
+						className="object-cover w-full h-[500px]"
+						src="https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"
 					/>
-					<div className="Z-50 mt-[-350px] w-4/5 mb-20 ml-14 flex-col flex">
-						<p className=" text-white font-customfont desktop:text-[50px] tablet:text-[30px] desktop:py-2  tablet:py-2 font-bold">
+					<div className="Z-50 mt-[-350px] w-4/5 mb-20 ml-14 flex-col flex justify-between min-h-[250px] ">
+						<p className=" text-white font-customfont text-3xl font-bold">
 							OUTSOURCED
 						</p>
-						<p className=" text-white font-customfont desktop:text-[50px] tablet:text-[30px] font-bold">
+						<p className=" text-white font-customfont text-3xl font-bold">
 							ENGINEERING
 						</p>
 						<p className=" text-white font-customfont desktop:text-[20px] tablet:text-sm  font-bold">
@@ -96,13 +128,13 @@ export default function SliderComponent() {
 						</p>
 						<button
 							type="button"
-							className="animate-pulse inline-flex items-center w-[120px] h-16  font-customfont text-center rounded border border-transparent bg-lightBlue px-3.5 py-1.5 text-lg font-medium text-white shadow-sm mt-3"
+							className="animate-pulse hover:animate-none inline-flex items-center justify-center w-[120px] h-16  font-customfont text-center rounded border border-transparent bg-lightBlue px-3.5 py-1.5 text-lg font-medium text-white shadow-sm mt-3"
 						>
 							Read More
 						</button>
 					</div>
 				</SwiperSlide>
 			</Swiper>
-		</>
+		</AnimatePresence>
 	);
 }
