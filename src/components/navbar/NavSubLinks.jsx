@@ -5,29 +5,13 @@ import { motion } from 'framer-motion'
 function NavSubLinks({sublinks}) {
   
   const hoverClasses = 'lg:absolute lg:w-max lg:bg-white top-16 lg:hidden lg:group-hover:block lg:hover:block lg:p-4 lg:shadow-xl'
-  
 
-  const variants = {
-    initial: {
-      height:0,
-      x:-100,
-      opacity: 0,
-    },
-    animate : {
-      height: "max-content",
-      x:0,
-      opacity:1,
-      transition: {
-        duration: .5,
-      }
-    }
-  }
   
 
 
   if(sublinks) {
     return (
-        <motion.ul layout variants={variants} transition={{duration:0.5}} initial={variants.initial} animate={variants.animate} className={`h-max flex flex-col justify-around w-full px-3 py-2 ${hoverClasses}` }>
+        <motion.ul layout className={`h-max flex flex-col justify-around w-full px-3 py-2 ${hoverClasses}` }>
         {sublinks.map((sublink, i) => {
           return (
             <li className='lg:p-2' key={`sublink-${i}`}>
