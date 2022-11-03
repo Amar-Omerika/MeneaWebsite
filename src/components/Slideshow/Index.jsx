@@ -80,7 +80,7 @@ export default function SliderComponent() {
 						</motion.p>
 						<button
 							type="button"
-							className="animate-pulse hover:animate-none inline-flex items-center justify-center font-customfont w-[120px] h-16 text-center rounded border border-transparent bg-lightBlue px-3.5 py-1.5 text-lg font-medium text-white shadow-sm mt-3"
+							className="animate-pulse hover:animate-none inline-flex items-center justify-center font-customfont w-[120px] h-16 text-center rounded border border-transparent bg-logoBlue px-3.5 py-1.5 text-lg font-medium text-white shadow-sm mt-3"
 						>
 							Read More
 						</button>
@@ -104,7 +104,7 @@ export default function SliderComponent() {
 						</p>
 						<button
 							type="button"
-							className="animate-pulse hover:animate-none inline-flex items-center justify-center font-customfont  w-[120px] h-16 text-center rounded border border-transparent bg-lightBlue px-3.5 py-1.5 text-lg font-medium text-white shadow-sm mt-3"
+							className="animate-pulse hover:animate-none inline-flex items-center justify-center font-customfont  w-[120px] h-16 text-center rounded border border-transparent bg-logoBlue px-3.5 py-1.5 text-lg font-medium text-white shadow-sm mt-3"
 						>
 							Read More
 						</button>
@@ -128,7 +128,7 @@ export default function SliderComponent() {
 						</p>
 						<button
 							type="button"
-							className="animate-pulse hover:animate-none inline-flex items-center justify-center w-[120px] h-16  font-customfont text-center rounded border border-transparent bg-lightBlue px-3.5 py-1.5 text-lg font-medium text-white shadow-sm mt-3"
+							className="animate-pulse hover:animate-none inline-flex items-center justify-center w-[120px] h-16  font-customfont text-center rounded border border-transparent bg-logoBlue px-3.5 py-1.5 text-lg font-medium text-white shadow-sm mt-3"
 						>
 							Read More
 						</button>
