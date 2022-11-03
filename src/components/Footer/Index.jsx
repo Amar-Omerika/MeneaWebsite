@@ -72,7 +72,10 @@ const navigation = {
 
 export default function Footer() {
 	return (
-		<footer className="bg-white w-full max-w-full" aria-labelledby="footer-heading">
+		<footer
+			className="bg-white w-full max-w-full"
+			aria-labelledby="footer-heading"
+		>
 			<h2 id="footer-heading" className="sr-only">
 				Footer
 			</h2>
@@ -101,7 +104,7 @@ export default function Footer() {
 						<div className="md:grid md:grid-cols-2 md:gap-8">
 							<div>
 								<h3 className="text-base font-bold text-gray-900 font-customfont text-[#fff]">
-									About Company
+									What we offer
 								</h3>
 								<ul role="list" className="mt-4 space-y-4">
 									<li>
