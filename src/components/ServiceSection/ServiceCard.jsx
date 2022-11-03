@@ -55,7 +55,7 @@ function classNames(...classes) {
 
 export default function ServiceCard() {
 	return (
-		<motion.div variants={variants} initial="initial" animate="animate" className="max-w-[1024px] mx-auto divide-y divide-gray-200 overflow-hidden rounded-lg bg-gray-200 shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0">
+		<motion.div variants={variants} initial="initial" animate="animate" className="max-w-[1024px] mx-auto divide-y divide-gray-200 overflow-hidden rounded-lg bg-gray-200 sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0 shadow-2xl">
 			{actions.map((action, actionIdx) => (
 				<div
 					key={action.title}
