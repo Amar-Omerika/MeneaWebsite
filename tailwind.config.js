@@ -13,6 +13,7 @@ module.exports = {
 				blue: "#6987c9",
 				lightBlue: "#6bbaec",
 				white: "#fff",
+        logoBlue: "#188AFC",
 			},
 			screens: {
 				tablet: "640px",
@@ -27,12 +28,13 @@ module.exports = {
 			animation: {
 				ping: "ping 1s cubic-bezier(0, 0, 0.2, 1) infinite",
         pulse: "pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        scroll: "scroll 6s ease-in-out",
 			},
       keyframes: {
         pulse: {
           "0%, 100": {opacity: 1},
           "50%": {opacity: 0.9},
-        }
+        },
       }
 		},
 	},

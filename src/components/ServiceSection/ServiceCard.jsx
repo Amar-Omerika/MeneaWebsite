@@ -55,7 +55,7 @@ function classNames(...classes) {
 
 export default function ServiceCard() {
 	return (
-		<motion.div variants={variants} initial="initial" animate="animate" className="max-w-[1024px] mx-auto divide-y divide-gray-200 overflow-hidden rounded-lg bg-gray-200 sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0 shadow-2xl">
+		<motion.div variants={variants} initial="initial" animate="animate" className="max-w-[1024px] mx-auto divide-y divide-gray-200 overflow-hidden rounded-lg bg-gray-200 sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0 shadow-lg shadow-[#686868]">
 			{actions.map((action, actionIdx) => (
 				<div
 					key={action.title}
@@ -68,7 +68,7 @@ export default function ServiceCard() {
 						actionIdx === actions.length - 1
 							? "rounded-bl-lg rounded-br-lg sm:rounded-bl-none"
 							: "",
-						"relative group bg-white p-6 focus-within:ring-2 focus-within:ring-inset hover:bg-lightBlue md:duration-500"
+						"relative group p-6 focus-within:ring-2 focus-within:ring-inset hover:bg-logoBlue md:duration-500"
 					)}
 				>
 					<div>

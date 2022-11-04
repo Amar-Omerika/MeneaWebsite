@@ -62,25 +62,23 @@ function Navbar() {
 	return (
 		<AnimatePresence>
 			<motion.nav
-				transition={{ layout: { duration: 0.5 } }}
-				layout
-				className="h-max w-screen max-w-full font-semibold mx-auto fixed top-0 left-0 right-0 z-[999] bg-white shadow-md"
+        layout="position"
+				className="w-screen max-w-full font-semibold mx-auto fixed top-0 left-0 right-0 z-[999] bg-white shadow-md"
 			>
 				<motion.div
-					layout
+        layout
 					className="bg-white px-6 flex flex-wrap items-center justify-between lg:mx-32"
 				>
 					<div className="w-full lg:w-1/4 flex justify-between ">
-						<div className="flex items-center justify-center cursor-pointer">
-							<motion.span layout="position">
+						<motion.div layout className="flex items-center justify-center cursor-pointer">
+							<span>
 								<img className="h-[50px] w-[50px]" src={logo} />
-							</motion.span>
+							</span>
 							<img className="ml-2" src={menea_text_logo} />
 							<span className="sr-only">Company Logo</span>
-						</div>
+						</motion.div>
 
-						<motion.div
-							layout="position"
+						<motion.div layout
 							className="py-6 flex items-center lg:hidden"
 						>
 							{open ? (
