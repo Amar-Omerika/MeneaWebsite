@@ -15,14 +15,30 @@ function Navbar() {
 			sublinks: [],
 		},
 		{
-			name: "Company",
+			name: "Outsourcing",
 			sublinks: [
 				{
-					name: "Modern Technology",
+					name: "Turning",
 					link: "/",
 				},
 				{
-					name: "Career",
+					name: "Milling",
+					link: "/",
+				},
+				{
+					name: "Plastic Injection",
+					link: "/",
+				},
+				{
+					name: "Grinding",
+					link: "/",
+				},
+				{
+					name: "Hardening",
+					link: "/",
+				},
+				{
+					name: "Quality insurance",
 					link: "/",
 				},
 			],
@@ -31,11 +47,23 @@ function Navbar() {
 			name: "Mechanical Engineering",
 			sublinks: [
 				{
-					name: "Modern Technology",
+					name: "Conceptual",
 					link: "/",
 				},
 				{
-					name: "Career",
+					name: "3D Modelling",
+					link: "/",
+				},
+				{
+					name: "Detail Drafting",
+					link: "/",
+				},
+				{
+					name: "FEA Calculations",
+					link: "/",
+				},
+				{
+					name: "3D Visualization",
 					link: "/",
 				},
 			],
@@ -44,11 +72,40 @@ function Navbar() {
 			name: "BIM Services",
 			sublinks: [
 				{
-					name: "Modern Technology",
+					name: "CAD to BIM  Model",
 					link: "/",
 				},
 				{
-					name: "Career",
+					name: "Scan to BIM  Model",
+					link: "/",
+				},
+				{
+					name: "PDF to BIM  Model",
+					link: "/",
+				},
+				{
+					name: "BIM Families Creation",
+					link: "/",
+				},
+				{
+					name: "Scanning",
+					link: "/",
+				},
+			],
+		},
+		{
+			name: "Consultion",
+			sublinks: [
+				{
+					name: "Quality management",
+					link: "/",
+				},
+				{
+					name: "Project management",
+					link: "/",
+				},
+				{
+					name: "Purchasing",
 					link: "/",
 				},
 			],
@@ -62,15 +119,18 @@ function Navbar() {
 	return (
 		<AnimatePresence>
 			<motion.nav
-        layout="position"
+				layout="position"
 				className="w-screen max-w-full font-semibold mx-auto fixed top-0 left-0 right-0 z-[999] bg-white shadow-md"
 			>
 				<motion.div
-        layout
+					layout
 					className="bg-white px-6 flex flex-wrap items-center justify-between lg:mx-32"
 				>
 					<div className="w-full lg:w-1/4 flex justify-between ">
-						<motion.div layout className="flex items-center justify-center cursor-pointer">
+						<motion.div
+							layout
+							className="flex items-center justify-center cursor-pointer"
+						>
 							<span>
 								<img className="h-[50px] w-[50px]" src={logo} />
 							</span>
@@ -78,9 +138,7 @@ function Navbar() {
 							<span className="sr-only">Company Logo</span>
 						</motion.div>
 
-						<motion.div layout
-							className="py-6 flex items-center lg:hidden"
-						>
+						<motion.div layout className="py-6 flex items-center lg:hidden">
 							{open ? (
 								<FontAwesomeIcon
 									icon={faXmark}
@@ -97,7 +155,7 @@ function Navbar() {
 						</motion.div>
 					</div>
 
-					<motion.ul className="hidden bg-white text-black lg:flex justify-around uppercase items-center gap-4">
+					<motion.ul className="hidden bg-white text-black font-customfont lg:flex justify-around uppercase items-center gap-4">
 						{links.map((link, i) => {
 							return <NavLinks link={link} key={`link${i}`} />;
 						})}
@@ -110,7 +168,7 @@ function Navbar() {
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 1 }}
 							transition={{ duration: 0.5 }}
-							className={`py-6 text-black h-max lg:hidden flex flex-col basis-full uppercase items-start gap-4 `}
+							className={`py-6 text-black font-customfont h-max lg:hidden flex flex-col basis-full uppercase items-start gap-4 `}
 						>
 							{links.map((link, i) => {
 								return <NavLinks link={link} key={`link${i}`} />;
