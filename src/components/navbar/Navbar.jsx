@@ -132,7 +132,7 @@ function Navbar() {
 							className="flex items-center justify-center cursor-pointer"
 						>
 							<span>
-								<img className="h-[50px] w-[50px]" src={logo} />
+								<img className="h-[30px] w-[30px] laptop:h-[50px] laptop:w-[50px]" src={logo} />
 							</span>
 							<img className="ml-2" src={menea_text_logo} />
 							<span className="sr-only">Company Logo</span>
