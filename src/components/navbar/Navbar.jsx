@@ -171,7 +171,7 @@ function Navbar() {
 							className={`py-6 text-black font-customfont h-max lg:hidden flex flex-col basis-full uppercase items-start gap-4 `}
 						>
 							{links.map((link, i) => {
-								return <NavLinks link={link} key={`link${i}`} />;
+								return <NavLinks link={link} key={`link${i}`} handleNav={handleNav} />;
 							})}
 						</motion.ul>
 					)}
