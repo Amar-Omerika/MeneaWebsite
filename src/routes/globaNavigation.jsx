@@ -8,7 +8,7 @@ function GlobalRoutes() {
 	return (
 		<Routes>
 			<Route path="/" element={<Home />} />
-			<Route path="/:id" element={<Sublinks />} />
+			<Route path="/:element/:id" element={<Sublinks />} />
 		</Routes>
 	);
 }

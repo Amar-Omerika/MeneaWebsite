@@ -1,4 +1,4 @@
-import Navbar from "../../components/navbar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import SliderComponent from "../../components/Slideshow/Index";
 import ServiceSection from "../../components/ServiceSection/Index";
 import Footer from "../../components/Footer/Index";

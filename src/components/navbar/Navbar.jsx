@@ -19,27 +19,27 @@ function Navbar() {
 			sublinks: [
 				{
 					name: "Turning",
-					link: "/",
+					link: "/outsourcing/turning",
 				},
 				{
 					name: "Milling",
-					link: "/",
+					link: "/outsourcing/milling",
 				},
 				{
 					name: "Plastic Injection",
-					link: "/",
+					link: "/outsourcing/plastic-injection",
 				},
 				{
 					name: "Grinding",
-					link: "/",
+					link: "/outsourcing/grinding",
 				},
 				{
 					name: "Hardening",
-					link: "/",
+					link: "/outsourcing/hardening",
 				},
 				{
 					name: "Quality insurance",
-					link: "/",
+					link: "/outsourcing/quality-insurance",
 				},
 			],
 		},
@@ -48,23 +48,23 @@ function Navbar() {
 			sublinks: [
 				{
 					name: "Conceptual",
-					link: "/",
+					link: "/mechanical-engineering/conceptual",
 				},
 				{
 					name: "3D Modelling",
-					link: "/",
+					link: "/mechanical-engineering/3d-modelling",
 				},
 				{
 					name: "Detail Drafting",
-					link: "/",
+					link: "/mechanical-engineering/detail-drafting",
 				},
 				{
 					name: "FEA Calculations",
-					link: "/",
+					link: "/mechanical-engineering/fea-calculations",
 				},
 				{
 					name: "3D Visualization",
-					link: "/",
+					link: "/mechanical-engineering/3d-visualization",
 				},
 			],
 		},
@@ -73,23 +73,23 @@ function Navbar() {
 			sublinks: [
 				{
 					name: "CAD to BIM  Model",
-					link: "/",
+					link: "/bim-services/cad-to-bim-model",
 				},
 				{
 					name: "Scan to BIM  Model",
-					link: "/",
+					link: "/bim-services/scan-to-bim-model",
 				},
 				{
 					name: "PDF to BIM  Model",
-					link: "/",
+					link: "/bim-services/pdf-to-bim-model",
 				},
 				{
 					name: "BIM Families Creation",
-					link: "/",
+					link: "/bim-services/bim-families-creation",
 				},
 				{
 					name: "Scanning",
-					link: "/",
+					link: "/bim-services/scanning",
 				},
 			],
 		},
@@ -98,15 +98,15 @@ function Navbar() {
 			sublinks: [
 				{
 					name: "Quality management",
-					link: "/",
+					link: "/consultion/quality-management",
 				},
 				{
 					name: "Project management",
-					link: "/",
+					link: "/consultion/project-management",
 				},
 				{
 					name: "Purchasing",
-					link: "/",
+					link: "/consultion/purchasing",
 				},
 			],
 		},

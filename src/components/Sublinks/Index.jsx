@@ -1,20 +1,19 @@
 import React from 'react'
 import { useParams } from 'react-router'
 import Footer from '../Footer/Index';
-import Navbar from '../navbar/Navbar';
+import Navbar from '../Navbar/Navbar';
 import SublinkPage from './SublinkPage';
 
 export default function Sublinks() {
 
 
 
-  const {id} = useParams();
-  console.log(id)
+  const {id, element} = useParams();
 
   return (
     <>
-      <Navbar />{/* 
-      <SublinkPage id={id} /> */}
+      <Navbar />
+      <SublinkPage key={element+id} id={id} element={element}/>
       <Footer />
     </>
 
