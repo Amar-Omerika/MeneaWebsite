@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 function NavSubLinks({sublinks, handleNav}) {
   
-  const hoverClasses = 'lg:absolute lg:w-max lg:bg-white top-16 lg:hidden lg:group-hover:block lg:hover:block lg:p-4 lg:shadow-xl'
+  const hoverClasses = 'desktop:absolute desktop:w-max desktop:bg-white top-16 desktop:hidden desktop:group-hover:block desktop:hover:block desktop:p-4 desktop:shadow-xl'
 
   
 

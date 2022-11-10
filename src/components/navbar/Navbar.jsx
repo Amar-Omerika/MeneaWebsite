@@ -124,9 +124,9 @@ function Navbar() {
 			>
 				<motion.div
 					layout
-					className="bg-white px-6 flex flex-wrap items-center justify-between lg:mx-32"
+					className="bg-white max-h-screen overflow-y-auto no-scrollbar no-scrollbar::-webkit-scrollbar px-6 flex flex-wrap items-center justify-between desktop:mx-32"
 				>
-					<div className="w-full lg:w-1/4 flex justify-between ">
+					<div className="w-full desktop:w-1/4 flex justify-between">
 						<motion.div
 							layout
 							className="flex items-center justify-center cursor-pointer"
@@ -138,7 +138,7 @@ function Navbar() {
 							<span className="sr-only">Company Logo</span>
 						</motion.div>
 
-						<motion.div layout className="py-6 flex items-center lg:hidden">
+						<motion.div layout className="py-6 flex items-center desktop:hidden">
 							{open ? (
 								<FontAwesomeIcon
 									icon={faXmark}
@@ -155,7 +155,7 @@ function Navbar() {
 						</motion.div>
 					</div>
 
-					<motion.ul className="hidden bg-white text-black font-customfont lg:flex justify-around uppercase items-center gap-4">
+					<motion.ul className="hidden bg-white text-black font-customfont desktop:flex justify-around uppercase items-center gap-4">
 						{links.map((link, i) => {
 							return <NavLinks link={link} key={`link${i}`} />;
 						})}
@@ -165,10 +165,8 @@ function Navbar() {
 
 					{open && (
 						<motion.ul
-							initial={{ opacity: 0 }}
-							animate={{ opacity: 1 }}
 							transition={{ duration: 0.5 }}
-							className={`py-6 text-black font-customfont h-max lg:hidden flex flex-col basis-full uppercase items-start gap-4 `}
+							className={`py-6 text-black font-customfont desktop:hidden flex flex-col basis-full uppercase items-start`}
 						>
 							{links.map((link, i) => {
 								return <NavLinks link={link} key={`link${i}`} handleNav={handleNav} />;

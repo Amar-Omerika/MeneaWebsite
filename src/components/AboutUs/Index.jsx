@@ -20,15 +20,13 @@ export default function AboutUs() {
 							Lorem ipsum dolor sit amet.
 						</h2>
 						<p className="mt-6 text-gray-600">
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
-							omnis voluptatem accusantium nemo perspiciatis delectus atque
-							autem! Voluptatum tenetur beatae unde aperiam, repellat expedita
-							consequatur! Officiis id consequatur atque doloremque!
+            Menea AB is a Swedish sourcing company providing contract manufacturing and engineering services. 
+            We have offices in Karlskrona (Sweden) and Mostar (Bosnia-Hercegovina).
+            We buy the products directly from our partner manufacturers and engineering houses to make sure our customers get the best prices possible.
 						</p>
 						<p className="mt-4 text-gray-600">
-							Nobis minus voluptatibus pariatur dignissimos libero quaerat iure
-							expedita at? Asperiores nemo possimus nesciunt dicta veniam
-							aspernatur quam mollitia.
+            Menea is monitoring the process from design, manufacturing and quality control to packaging and shipping.
+            We always do our utmost to ensure that we live up to our customers' demands for price, quality and delivery precision.
 						</p>
 					</div>
 				</div>
