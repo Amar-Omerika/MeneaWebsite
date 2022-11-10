@@ -124,7 +124,7 @@ function Navbar() {
 			>
 				<motion.div
 					layout
-					className="bg-white max-h-screen overflow-y-auto no-scrollbar no-scrollbar::-webkit-scrollbar px-6 flex flex-wrap items-center justify-between desktop:mx-32"
+					className="bg-white max-h-screen overflow-y-auto desktop:overflow-y-visible no-scrollbar no-scrollbar::-webkit-scrollbar px-6 flex flex-wrap items-center justify-between desktop:mx-32"
 				>
 					<div className="w-full desktop:w-1/4 flex justify-between">
 						<motion.div
