@@ -116,6 +116,10 @@ function Navbar() {
 		setOpen(!open);
 	};
 
+  const handleScroll = (e) => {
+    e.stopPropagation();
+  }
+
 	return (
 		<AnimatePresence>
 			<motion.nav
@@ -124,7 +128,9 @@ function Navbar() {
 			>
 				<motion.div
 					layout
-					className="bg-white max-h-screen overflow-y-auto no-scrollbar no-scrollbar::-webkit-scrollbar px-6 flex flex-wrap items-center justify-between desktop:mx-32"
+          transition= {{duration: .5, delayChildren:.5, staggerChildren: 1}}
+          onScroll={handleScroll}
+					className="bg-white max-h-[500px] overflow-y-auto desktop:overflow-y-visible no-scrollbar no-scrollbar::-webkit-scrollbar px-6 flex flex-wrap items-center justify-between desktop:mx-32"
 				>
 					<div className="w-full desktop:w-1/4 flex justify-between">
 						<motion.div
@@ -138,7 +144,9 @@ function Navbar() {
 							<span className="sr-only">Company Logo</span>
 						</motion.div>
 
-						<motion.div layout className="py-6 flex items-center desktop:hidden">
+						<motion.div
+            layout
+            className="py-6 flex items-center desktop:hidden">
 							{open ? (
 								<FontAwesomeIcon
 									icon={faXmark}
@@ -165,7 +173,11 @@ function Navbar() {
 
 					{open && (
 						<motion.ul
-							transition={{ duration: 0.5 }}
+            layout="position"
+            initial={{opacity: 0}}
+            animate={{opacity: 1}}
+            exit={{opacity: 0}}
+							transition={{ duration: 0.5, delay:.2 }}
 							className={`py-6 text-black font-customfont desktop:hidden flex flex-col basis-full uppercase items-start`}
 						>
 							{links.map((link, i) => {

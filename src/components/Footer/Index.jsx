@@ -85,7 +85,7 @@ export default function Footer() {
 			</h2>
 			<div className="mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 bg-[#36425d]">
 				<div className="xl:grid xl:grid-cols-2 xl:gap-8">
-					<div className="space-y-8 xl:col-span-1">
+					<div className="space-y-8 :col-span-2">
 						<img className="h-[50px] w-[50px]" src={logo} />
 
 						<div className="flex space-x-6 justify-center">
