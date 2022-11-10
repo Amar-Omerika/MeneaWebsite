@@ -4,32 +4,33 @@ import {
 	WrenchScrewdriverIcon,
 } from "@heroicons/react/24/outline";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const actions = [
 	{
 		title: "Mechanical Engineering",
-		href: "#",
+		href: "mechanical-engineering",
 		icon: WrenchScrewdriverIcon,
 		iconForeground: "text-teal-700",
 		iconBackground: "bg-teal-50",
 	},
 	{
 		title: "Bim Services",
-		href: "#",
+		href: "bim-services",
 		icon: CheckBadgeIcon,
 		iconForeground: "text-purple-700",
 		iconBackground: "bg-purple-50",
 	},
 	{
-		title: "Project Managamnet",
-		href: "#",
+		title: "Project Management",
+		href: "project-management",
 		icon: UsersIcon,
 		iconForeground: "text-sky-700",
 		iconBackground: "bg-sky-50",
 	},
 	{
 		title: "Outsourcing",
-		href: "#",
+		href: "outsourcing",
 		icon: UsersIcon,
 		iconForeground: "text-sky-700",
 		iconBackground: "bg-sky-50",
@@ -84,11 +85,11 @@ export default function ServiceCard() {
 					</div>
 					<div className="mt-8 hover:text-white ">
 						<h3 className="text-xl font-bold font-customfont">
-							<a href={action.href} className="focus:outline-none">
+							<Link to={action.href} className="focus:outline-none">
 								{/* Extend touch target to entire panel */}
 								<span className="absolute inset-0" aria-hidden="true" />
 								{action.title}
-							</a>
+							</Link>
 						</h3>
 						<p className="mt-2 text-sm text-gray-500 font-customfont">
 							Doloribus dolores nostrum quia qui natus officia quod et dolorem.

@@ -19,27 +19,27 @@ function Navbar() {
 			sublinks: [
 				{
 					name: "Turning",
-					link: "/",
+					link: "/outsourcing/turning",
 				},
 				{
 					name: "Milling",
-					link: "/",
+					link: "/outsourcing/milling",
 				},
 				{
 					name: "Plastic Injection",
-					link: "/",
+					link: "/outsourcing/plastic-injection",
 				},
 				{
 					name: "Grinding",
-					link: "/",
+					link: "/outsourcing/grinding",
 				},
 				{
 					name: "Hardening",
-					link: "/",
+					link: "/outsourcing/hardening",
 				},
 				{
 					name: "Quality insurance",
-					link: "/",
+					link: "/outsourcing/quality-insurance",
 				},
 			],
 		},
@@ -48,23 +48,23 @@ function Navbar() {
 			sublinks: [
 				{
 					name: "Conceptual",
-					link: "/",
+					link: "/mechanical-engineering/conceptual",
 				},
 				{
 					name: "3D Modelling",
-					link: "/",
+					link: "/mechanical-engineering/3d-modelling",
 				},
 				{
 					name: "Detail Drafting",
-					link: "/",
+					link: "/mechanical-engineering/detail-drafting",
 				},
 				{
 					name: "FEA Calculations",
-					link: "/",
+					link: "/mechanical-engineering/fea-calculations",
 				},
 				{
 					name: "3D Visualization",
-					link: "/",
+					link: "/mechanical-engineering/3d-visualization",
 				},
 			],
 		},
@@ -73,23 +73,23 @@ function Navbar() {
 			sublinks: [
 				{
 					name: "CAD to BIM  Model",
-					link: "/",
+					link: "/bim-services/cad-to-bim-model",
 				},
 				{
 					name: "Scan to BIM  Model",
-					link: "/",
+					link: "/bim-services/scan-to-bim-model",
 				},
 				{
 					name: "PDF to BIM  Model",
-					link: "/",
+					link: "/bim-services/pdf-to-bim-model",
 				},
 				{
 					name: "BIM Families Creation",
-					link: "/",
+					link: "/bim-services/bim-families-creation",
 				},
 				{
 					name: "Scanning",
-					link: "/",
+					link: "/bim-services/scanning",
 				},
 			],
 		},
@@ -98,15 +98,15 @@ function Navbar() {
 			sublinks: [
 				{
 					name: "Quality management",
-					link: "/",
+					link: "/consultion/quality-management",
 				},
 				{
 					name: "Project management",
-					link: "/",
+					link: "/consultion/project-management",
 				},
 				{
 					name: "Purchasing",
-					link: "/",
+					link: "/consultion/purchasing",
 				},
 			],
 		},
@@ -132,7 +132,7 @@ function Navbar() {
 							className="flex items-center justify-center cursor-pointer"
 						>
 							<span>
-								<img className="h-[50px] w-[50px]" src={logo} />
+								<img className="h-[30px] w-[30px] laptop:h-[50px] laptop:w-[50px]" src={logo} />
 							</span>
 							<img className="ml-2" src={menea_text_logo} />
 							<span className="sr-only">Company Logo</span>
@@ -171,7 +171,7 @@ function Navbar() {
 							className={`py-6 text-black font-customfont h-max lg:hidden flex flex-col basis-full uppercase items-start gap-4 `}
 						>
 							{links.map((link, i) => {
-								return <NavLinks link={link} key={`link${i}`} />;
+								return <NavLinks link={link} key={`link${i}`} handleNav={handleNav} />;
 							})}
 						</motion.ul>
 					)}
