@@ -9,14 +9,13 @@ const navigation = {
 		{ name: "Outsourced Engineering", href: "#" },
 	],
 	contact: [
-		{ name: "+387217638", href: "#" },
-		{ name: "contactmail@com", href: "#" },
-		{ name: "New york 127th street", href: "#" },
+		{ name: "+46 733 96 03 15", href: "#" },
+		{ name: "info@menea.se", href: "mailto:info@menea.se" },
 	],
 	location: [
-		{ name: "Sweeden", href: "#" },
-		{ name: "Bosnia and Herzegovina", href: "#" },
-		{ name: "Washington Dc", href: "#" },
+		{ name: "Sweden", href: "#" },
+		{ name: "371 34 Karlskrona", href: "#" },
+		{ name: "Ronnebygatan 49", href: "#" },
 	],
 	social: [
 		{
@@ -70,29 +69,31 @@ const navigation = {
 	],
 };
 
+function getCurrentYear() {
+  const year = new Date().getFullYear();
+  return year;
+}
+
 export default function Footer() {
 	return (
 		<footer
-			className="bg-white w-full max-w-full"
+			className="w-full max-w-full font-customfont"
 			aria-labelledby="footer-heading"
 		>
 			<h2 id="footer-heading" className="sr-only">
 				Footer
 			</h2>
-			<div className="mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 bg-[#6987c9]">
-				<div className="xl:grid xl:grid-cols-3 xl:gap-8">
-					<div className="space-y-8 xl:col-span-1">
+			<div className="mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 bg-[#36425d]">
+				<div className="xl:grid xl:grid-cols-2 xl:gap-8">
+					<div className="space-y-8 :col-span-2">
 						<img className="h-[50px] w-[50px]" src={logo} />
-						<p className="text-base  font-customfont text-[#fff]">
-							Making the world a better place through constructing elegant
-							hierarchies.
-						</p>
-						<div className="flex space-x-6">
+
+						<div className="flex space-x-6 justify-center">
 							{navigation.social.map((item) => (
 								<a
 									key={item.name}
 									href={item.href}
-									className="text-[#fff] hover:text-beige"
+									className="text-[#fff] hover:text-lightBlue"
 								>
 									<span className="sr-only font-customfont">{item.name}</span>
 									<item.icon className="h-6 w-6" aria-hidden="true" />
@@ -100,52 +101,65 @@ export default function Footer() {
 							))}
 						</div>
 					</div>
-					<div className="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-						<div className="md:grid md:grid-cols-2 md:gap-8">
-							<div>
-								<h3 className="text-base font-bold text-gray-900 font-customfont text-[#fff]">
-									What we offer
+					<div className="mt-12 laptop:grid :grid-cols-3 gap-8 xl:col-span-2 xl:mt-0 col-span-2">
+						<div className="md:gap-8 col-span-2">
+							<div className="hidden laptop:block">
+								<h3 className="font-bold text-xl text-gray-900 font-customfont text-[#fff]">
+                Together with our Swedish and Bosnian partners we are offering following services:
 								</h3>
-								<ul role="list" className="mt-4 space-y-4">
+								<ul className="mt-4 text-base font-customfont text-[#fff] md:grid grid-cols-3 gap-4">
 									<li>
-										<a className="text-base  font-customfont text-[#fff]">
-											Lorem Ipsum is simply dummy text of the printing and
-											typesetting industry. Lorem Ipsum has been the industry's
-											standard dummy text ever since the 1500s, when an unknown
-											printer took a galley of type and scrambled it to make a
-											type specimen book.
-										</a>
+                    <p className="font-bold">Manufacturing / Sourcing Services</p>
+                    <ul className="list-disc pl-6">
+                      <li>CNC Machining</li>
+                      <li>Laser Cutting</li>
+                      <li>Casting</li>
+                      <li>Plastic Injection Dies</li>
+                      <li>Plastic Parts</li>
+                    </ul>
 									</li>
+									<li>
+                    <p className="font-bold">Engineering Services</p>
+                    <ul className="list-disc pl-6">
+                      <li>BIM</li>
+                      <li>Conceptual Design</li>
+                      <li>Production Modeling</li>
+                      <li>Tools and Fixture Design</li>
+                      <li>Detail Design</li>
+                      <li>Rendering</li>
+                      <li>PDF to 3D Models</li>
+                      <li>FEA Calculations</li>
+                      <li>Quality Assurance</li>
+                    </ul>
+									</li>
+                  <li>
+                  <p className="font-bold">Packaging & Shipping</p>
+                  <ul className="list-disc">
+                    <li>Our customers can confirm that our prices and quality are often better than our competitors in Asia and our delivery times are much shorter. 
+                    </li>
+                    <li>
+                    Transport by truck from the Balkans to Sweden can be done in only few days
+                    </li>
+                  </ul>
+
+                  </li>
+
 								</ul>
 							</div>
-							<div className="mt-12 md:mt-0">
-								<h3 className="text-base font-bold font-customfont text-[#fff]">
-									Our Services
-								</h3>
-								<ul role="list" className="mt-4 space-y-4">
-									{navigation.services.map((item) => (
-										<li key={item.name}>
-											<a
-												href={item.href}
-												className="text-base text-gray-500 hover:text-beige font-customfont text-[#fff]"
-											>
-												{item.name}
-											</a>
-										</li>
-									))}
-								</ul>
-							</div>
+
 						</div>
-						<div className="md:grid md:grid-cols-2 md:gap-8">
-							<div>
-								<h3 className="text-base font-bold font-customfont text-[#fff]">
+						<div className="md:grid md:grid-cols-2 col-span-3 md:gap-8">
+							<div className="text-center">
+								<h3 className="text-xl font-bold font-customfont text-[#fff]">
 									Contact Us
 								</h3>
-								<ul role="list" className="mt-4 space-y-4">
+								<ul className="mt-4 space-y-4">
 									{navigation.contact.map((item) => (
 										<li key={item.name}>
 											<a
 												href={item.href}
+                        target="_blank"
+                        rel="noreferrer"
 												className="text-base  hover:text-beige font-customfont text-[#fff]"
 											>
 												{item.name}
@@ -154,19 +168,14 @@ export default function Footer() {
 									))}
 								</ul>
 							</div>
-							<div className="mt-12 md:mt-0">
-								<h3 className="text-base font-bold font-customfont text-[#fff]">
+							<div className="mt-12 md:mt-0 text-center text-white">
+								<h3 className="text-xl font-bold font-customfont text-[#fff]">
 									Our Location
 								</h3>
-								<ul role="list" className="mt-4 space-y-4">
+								<ul className="mt-4 space-y-4">
 									{navigation.location.map((item) => (
 										<li key={item.name}>
-											<a
-												href={item.href}
-												className="text-base hover:text-beige font-customfont text-[#fff]"
-											>
 												{item.name}
-											</a>
 										</li>
 									))}
 								</ul>
@@ -174,9 +183,9 @@ export default function Footer() {
 						</div>
 					</div>
 				</div>
-				<div className="mt-12 border-t border-[#fff] pt-8">
+				<div className="mt-12 border-t border-[#fff] pt-8 text-center">
 					<p className="text-base xl:text-center font-customfont text-[#fff]">
-						&copy; 2020 Your Company, Inc. All rights reserved.
+						&copy; {getCurrentYear()} Menea. All rights reserved.
 					</p>
 				</div>
 			</div>
