@@ -7,7 +7,7 @@ function LinkCard({service}) {
  
   return (
 
-    <div onClick={()=>navigate(`${service.id}`)} className='w-full cursor-pointer relative z-10 h-[300px] text-white group rounded-xl overflow-hidden'>
+    <div onClick={()=>navigate(`${service.id}`)} className='w-full cursor-pointer relative z-10 h-[300px] text-white group rounded-xl shadow-md shadow-[#757575] hover:shadow-[#444444] overflow-hidden'>
       <div className='absolute top-0 left-0 h-full w-full'>
         <img alt='service' src={service.image} className="object-cover h-full w-full z-20 brightness-50 group-hover:brightness-[.25] transition-all duration-300" />
       </div>
