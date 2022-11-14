@@ -6,9 +6,11 @@ import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { AnimatePresence, motion } from "framer-motion";
 import logo from "../../assets/menea_logo.png";
 import menea_text_logo from "../../assets/menea.png";
+import { useNavigate } from "react-router";
 
 function Navbar() {
 	const [open, setOpen] = useState(false);
+  const navigate = useNavigate();
 	const links = [
 		{
 			name: "Home",
@@ -134,6 +136,7 @@ function Navbar() {
 				>
 					<div className="w-full desktop:w-1/4 flex justify-between">
 						<motion.div
+             onClick={navigate("/")}
 							layout
 							className="flex items-center justify-center cursor-pointer"
 						>
