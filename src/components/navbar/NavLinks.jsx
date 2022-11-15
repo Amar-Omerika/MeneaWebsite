@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import NavSubLinks from './NavSubLinks'
 import { AnimatePresence, motion } from 'framer-motion';
 
@@ -8,14 +8,13 @@ function NavLinks({link, handleNav}) {
   const [open, setOpen] = useState(false);
 
 
-
   if(link) {
   return (
     <AnimatePresence>
         <li key='link' className='w-full'>
           <div className={`lg:py-5 relative group`}>
             <motion.div className='flex justify-between w-full desktop:w-max'>
-              <Link onClick={()=>handleNav(!open)} className='hover:text-lightBlue text-lg border-b-2 desktop:border-none transition-[color] duration-100' to={link.link}>{link.name}</Link>
+              <NavLink onClick={()=>handleNav(!open)} className='hover:text-lightBlue text-lg border-b-2 desktop:border-none transition-[color] duration-100' to={`/${link.link}`}>{link.name}</NavLink>
               {link.sublinks.length !==0 && <span onClick={()=>setOpen(!open)} className='cursor-pointer desktop:hidden'>{open ? '-' : '+'}</span>}
             </motion.div>
 

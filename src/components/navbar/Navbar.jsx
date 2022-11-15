@@ -14,10 +14,12 @@ function Navbar() {
 	const links = [
 		{
 			name: "Home",
+      link: "",
 			sublinks: [],
 		},
 		{
 			name: "Outsourcing",
+      link: "outsourcing",
 			sublinks: [
 				{
 					name: "Turning",
@@ -47,6 +49,7 @@ function Navbar() {
 		},
 		{
 			name: "Mechanical Engineering",
+      link: "mechanical-engineering",
 			sublinks: [
 				{
 					name: "Conceptual",
@@ -72,6 +75,7 @@ function Navbar() {
 		},
 		{
 			name: "BIM Services",
+      link: "bim-services",
 			sublinks: [
 				{
 					name: "CAD to BIM  Model",
@@ -97,6 +101,7 @@ function Navbar() {
 		},
 		{
 			name: "Consultion",
+      link: "consultion",
 			sublinks: [
 				{
 					name: "Quality management",
