@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useParams } from 'react-router'
 import Footer from '../Footer/Index'
 import Navbar from '../Navbar/Navbar'
 import Article from './Article'
 
 function NewsPage() {
+
+  
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  },[])
 
   const news = require("../../assets/data/newsData.json")
   const {article} = useParams()
