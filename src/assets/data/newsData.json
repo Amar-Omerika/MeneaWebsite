@@ -1,0 +1,38 @@
+{
+  "data":
+    [
+      {
+        "id" : 1,
+        "title" : "Lorem ipsum dolor sit amet",
+        "content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quaerat quasi aut iure animi incidunt voluptas sapiente soluta nihil sint illo vero tenetur fuga ullam eveniet cupiditate sequi. Possimus, sit? Magnam ipsum aliquid saepe reiciendis voluptate laboriosam! Dolorum consequatur quos impedit dolor maxime cumque hic. \n Vitae quasi saepe, vel voluptatem ea omnis rem, excepturi illum labore autem ut nisi dolores. Omnis reiciendis totam praesentium nostrum sint autem pariatur a! Eum doloribus molestiae et iste dolorum, saepe totam vel odit impedit nostrum, ex debitis. Impedit excepturi nesciunt fugit exercitationem alias labore.",
+        "author" : "-",
+        "dateCreated" : "1.1.2022",
+        "image" : "https://images.unsplash.com/photo-1598302936625-6075fbd98dd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWFudWZhY3R1cmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60'"
+      },
+      {
+        "id" : 2,
+        "title" : "Lorem ipsum dolor sit amet",
+        "content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quaerat quasi aut iure animi incidunt voluptas sapiente soluta nihil sint illo vero tenetur fuga ullam eveniet cupiditate sequi. Possimus, sit? Magnam ipsum aliquid saepe reiciendis voluptate laboriosam! Dolorum consequatur quos impedit dolor maxime cumque hic. \n Vitae quasi saepe, vel voluptatem ea omnis rem, excepturi illum labore autem ut nisi dolores. Omnis reiciendis totam praesentium nostrum sint autem pariatur a! Eum doloribus molestiae et iste dolorum, saepe totam vel odit impedit nostrum, ex debitis. Impedit excepturi nesciunt fugit exercitationem alias labore.",
+        "author" : "-",
+        "dateCreated" : "1.2.2022",
+        "image" : "https://images.unsplash.com/photo-1598302936625-6075fbd98dd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWFudWZhY3R1cmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60'"
+      },
+      {
+        "id" : 3,
+        "title" : "Lorem ipsum dolor sit amet",
+        "content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quaerat quasi aut iure animi incidunt voluptas sapiente soluta nihil sint illo vero tenetur fuga ullam eveniet cupiditate sequi. Possimus, sit? Magnam ipsum aliquid saepe reiciendis voluptate laboriosam! Dolorum consequatur quos impedit dolor maxime cumque hic. \n Vitae quasi saepe, vel voluptatem ea omnis rem, excepturi illum labore autem ut nisi dolores. Omnis reiciendis totam praesentium nostrum sint autem pariatur a! Eum doloribus molestiae et iste dolorum, saepe totam vel odit impedit nostrum, ex debitis. Impedit excepturi nesciunt fugit exercitationem alias labore.",
+        "author" : "-",
+        "dateCreated" : "1.3.2022",
+        "image" : "https://images.unsplash.com/photo-1598302936625-6075fbd98dd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWFudWZhY3R1cmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60'"
+      },
+      {
+        "id" : 4,
+        "title" : "Lorem ipsum dolor sit amet",
+        "content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quaerat quasi aut iure animi incidunt voluptas sapiente soluta nihil sint illo vero tenetur fuga ullam eveniet cupiditate sequi. Possimus, sit? Magnam ipsum aliquid saepe reiciendis voluptate laboriosam! Dolorum consequatur quos impedit dolor maxime cumque hic. Vitae quasi saepe, vel voluptatem ea omnis rem, excepturi illum labore autem ut nisi dolores. \n Omnis reiciendis totam praesentium nostrum sint autem pariatur a! Eum doloribus molestiae et iste dolorum, saepe totam vel odit impedit nostrum, ex debitis. Impedit excepturi nesciunt fugit exercitationem alias labore.",
+        "author" : "-",
+        "dateCreated" : "1.4.2022",
+        "image" : "https://images.unsplash.com/photo-1598302936625-6075fbd98dd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWFudWZhY3R1cmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60'"
+      }
+    ]
+}
+

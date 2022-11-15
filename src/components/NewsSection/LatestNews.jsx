@@ -1,6 +1,8 @@
 import React from 'react'
 import NewsCard from './NewsCard'
 
+const news = require("../../assets/data/newsData.json")
+
 function LatestNews() {
   return (
     <div className='max-w-[1920px] mx-auto px-3 py-6'>
@@ -8,10 +10,7 @@ function LatestNews() {
 				Latest News
 			</h1>
       <div className='grid place-items-center grid-cols-1 gap-6 tablet:grid-cols-2 laptop:grid-cols-3 desktop:grid-cols-4'>
-      <NewsCard />
-      <NewsCard />
-      <NewsCard />
-      <NewsCard />
+        {news && news.data.map(article => <NewsCard key={`article - ${article.id}`} article={article} />  )}
       </div>
 
     </div>
