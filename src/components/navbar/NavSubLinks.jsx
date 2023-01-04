@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
 
 function NavSubLinks({sublinks, handleNav}) {
   
@@ -11,6 +11,7 @@ function NavSubLinks({sublinks, handleNav}) {
 
   if(sublinks) {
     return (
+      <AnimatePresence>
         <motion.ul             
         layout
         initial={{opacity: 0}}
@@ -18,17 +19,25 @@ function NavSubLinks({sublinks, handleNav}) {
         exit={{opacity: 0}}
         transition={{ duration: 0.6, when: 'afterChildren', staggerChildren: .5}} 
         className={`flex flex-col justify-around w-full px-3 py-2 ${hoverClasses}` }>
+        <AnimatePresence>
         {sublinks.map((sublink, i) => {
           return (
             <motion.li
             className='desktop:p-2' 
-            key={`sublink-${i}`}>
+            key={`sublink-${i}`}
+            layoutId={i}
+            >
+            
               <Link onClick={()=>handleNav()} className='transition duration-150 border-b-2 border-b-transparent hover:border-b-lightBlue hover:text-lightBlue' to={sublink.link}>{sublink.name}</Link>
             </motion.li> 
           )
           })
-        }
-        </motion.ul>       
+        }          
+        </AnimatePresence>
+
+        </motion.ul>  
+      </AnimatePresence>
+     
     )    
   }
 
