@@ -4,7 +4,7 @@
           "id":"turning",
           "title": "Turning",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "image" : "../../../public/images/Turning.jpg",
           "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }, {
           "id":"milling",
