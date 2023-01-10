@@ -2,11 +2,7 @@ import React from "react";
 import Carousel from "../Carousel";
 let fullData = require("../../assets/data/sublinksData.json");
 
-const images = [
-	"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
-	"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
-	"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg",
-];
+
 function SublinkPage({ id, element }) {
 	const data = fullData.data;
 	return data.map(
@@ -33,7 +29,7 @@ function SublinkPage({ id, element }) {
 									alt="engineering"
 								/> */}
 								{/*we need to provide here an array of images that are nested in sublinks json data for specific image*/}
-								<Carousel imgData={images} />
+								<Carousel imgData={x.images} />
 								<p className="laptop:w-1/2">{x.content}</p>
 							</div>
 						</div>
