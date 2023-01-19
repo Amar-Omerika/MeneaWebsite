@@ -7,6 +7,7 @@ function NavLinks({link, handleNav}) {
 
   const [open, setOpen] = useState(false);
 
+  console.log(link)
 
   if(link) {
   return (
@@ -14,7 +15,7 @@ function NavLinks({link, handleNav}) {
         <li key='link' className='w-full'>
           <div className={`lg:py-5 relative group`}>
             <motion.div className='flex justify-between w-full desktop:w-max'>
-              <NavLink onClick={()=>handleNav(!open)} className='hover:text-lightBlue text-lg border-b-2 desktop:border-none transition-[color] duration-100' to={`/${link.link}`}>{link.name}</NavLink>
+              <NavLink onClick={()=>handleNav(!open)} className='hover:text-lightBlue text-lg border-b-2 desktop:border-none transition-[color] duration-100' to={link.link}>{link.name}</NavLink>
               {link.sublinks.length !==0 && <span onClick={()=>setOpen(!open)} className='cursor-pointer desktop:hidden'>{open ? '-' : '+'}</span>}
             </motion.div>
 
