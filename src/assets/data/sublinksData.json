@@ -4,37 +4,43 @@
           "id":"turning",
           "title": "Turning",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "images" : [],
           "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }, {
           "id":"milling",
           "title": "Milling",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-          "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          "images" : ["/images/Milling-0.jpg", "/images/Milling-1.jpg", "/images/Milling-2.jpg"],
+          "bgImage": "/images/Milling-Wallpaper.jpg"
         }, {
           "id":"plastic-injection",
           "title": "Plastic injection",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "images" : [	"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+	"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
+	"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"],
           "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }, {
           "id":"grinding",
           "title": "Grinding",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "images" : [	"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+	"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
+	"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"],
           "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }, {
           "id":"hardening",
           "title": "Hardening",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-          "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          "images" : ["/images/Hardening-0.jpg", "/images/Hardening-1.jpg", "/images/Hardening-2.jpg"],
+          "bgImage": "/images/Hardening-Wallpaper.jpg"
         }, {
           "id":"quality-insurance",
           "title": "Quality insurance",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "images" : [	"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+	"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
+	"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"],
           "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }
       ]
@@ -44,31 +50,41 @@
           "id":"conceptual",
           "title": "Conceptual",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "images" : [	"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+	"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
+	"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"],
           "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }, {
           "id":"3d-modelling",
           "title": "3D Modelling",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "images" : [	"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+	"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
+	"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"],
           "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }, {
           "id":"detail-drafting",
           "title": "Detail drafting",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "images" : [	"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+	"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
+	"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"],
           "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }, {
           "id":"fea-calculations",
           "title": "FEA Calculations",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "images" : [	"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+	"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
+	"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"],
           "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }, {
           "id":"3d-visualization",
           "title": "3D Visualization",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "images" : [	"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+	"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
+	"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"],
           "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }
       ]
@@ -77,31 +93,41 @@
           "id":"cad-to-bim-model",
           "title": "CAD to BIM model",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "images" : [	"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+	"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
+	"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"],
           "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }, {
           "id":"scan-to-bim-model",
           "title": "Scan to BIM model",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "images" : [	"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+	"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
+	"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"],
           "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }, {
           "id":"pdf-to-bim-model",
           "title": "PDF to BIM model",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "images" : [	"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+	"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
+	"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"],
           "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }, {
           "id":"bim-families-creation",
           "title": "BIM families creation",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "images" : [	"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+	"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
+	"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"],
           "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }, {
           "id":"scanning",
           "title": "Scanning",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "images" : [	"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+	"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
+	"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"],
           "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }
       ]
@@ -111,19 +137,25 @@
           "id":"quality-management",
           "title": "Quality management",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "images" : [	"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+	"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
+	"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"],
           "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }, {
           "id":"project-management",
           "title": "Project management",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "images" : [	"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+	"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
+	"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"],
           "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }, {
           "id":"purchasing",
           "title": "Purchasing",
           "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-          "image" : "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "images" : [	"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+	"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
+	"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"],
           "bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         }
       ]
