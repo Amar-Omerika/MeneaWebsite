@@ -18,7 +18,7 @@ function SublinkPage({ id, element }) {
 									src={window.location.origin + x.bgImage}
 									alt="engineering"
 								/>
-								<div className=" font-customFont absolute top-0 left-0 right-0 flex flex-col gap-9 justify-center items-center z-50 h-full text-6xl font-semibold text-white px-6 uppercase">
+								<div className=" font-customFont absolute top-0 left-0 right-0 flex flex-col gap-9 justify-center items-center z-50 h-full desktop:text-6xl text-xl font-semibold text-white px-6 uppercase">
 									<p>{x.title}</p>
 								</div>
 							</div>
@@ -30,7 +30,9 @@ function SublinkPage({ id, element }) {
 								/> */}
 								{/*we need to provide here an array of images that are nested in sublinks json data for specific image*/}
 								<Carousel imgData={x.images} />
-								<p className="laptop:w-1/2">{x.content}</p>
+								<p className="laptop:w-1/2 font-customfont font-[600]">
+									{x.content}
+								</p>
 							</div>
 						</div>
 					)
