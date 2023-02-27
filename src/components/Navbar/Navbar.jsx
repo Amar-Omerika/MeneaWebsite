@@ -63,8 +63,8 @@ function Navbar() {
 					link: "/mechanical-engineering/detail-drafting",
 				},
 				{
-					name: "FEA Calculations",
-					link: "/mechanical-engineering/fea-calculations",
+					name: "Mechanical design and FEA Calculations",
+					link: "/mechanical-engineering/mechanical-design-and-fea-calculations",
 				},
 				{
 					name: "3D Visualization",
