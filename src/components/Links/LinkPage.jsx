@@ -6,7 +6,6 @@ let fullData = require("../../assets/data/sublinksData.json");
 function LinkPage({ link }) {
 	const links = fullData.data.find((item) => item[link]);
 
-	console.log(links);
 
 	return (
 		<div className="mt-[65px] min-h-screen py-8 px-4">

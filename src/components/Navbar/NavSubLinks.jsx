@@ -6,7 +6,7 @@ function NavSubLinks({sublinks, handleNav}) {
   
   const hoverClasses = 'desktop:absolute desktop:w-max desktop:bg-white top-16 desktop:hidden desktop:group-hover:block desktop:hover:block desktop:p-4 desktop:shadow-xl'
 
-  
+  console.log(sublinks);
 
 
   if(sublinks) {
