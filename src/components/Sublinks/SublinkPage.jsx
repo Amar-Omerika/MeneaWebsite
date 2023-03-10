@@ -30,7 +30,7 @@ function SublinkPage({ id, element }) {
 								/> */}
 								{/*we need to provide here an array of images that are nested in sublinks json data for specific image*/}
 								<Carousel imgData={x.images} />
-								<p className="laptop:w-1/2 font-customfont font-[600]">
+								<p className="ml-2 laptop:w-1/2 font-customfont font-[600] whitespace-pre-wrap">
 									{x.content}
 								</p>
 							</div>
