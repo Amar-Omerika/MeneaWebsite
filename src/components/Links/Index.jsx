@@ -14,6 +14,7 @@ function Links() {
   },[])
 
   const { link } = useParams()
+  
   return (
     <>
       <Navbar />

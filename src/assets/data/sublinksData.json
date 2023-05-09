@@ -14,27 +14,27 @@
 					"title": "Milling",
 					"content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
 					"images": [
-						"/images/Milling-0.jpg",
-						"/images/Milling-1.jpg",
-						"/images/Milling-2.jpg"
+						"/images/MillingImages/Milling-0.jpg",
+						"/images/MillingImages/Milling-1.jpg",
+						"/images/MillingImages/Milling-2.jpg"
 					],
-					"bgImage": "/images/Milling-Wallpaper.jpg"
+					"bgImage": "/images/MillingImages/Milling-Wallpaper.jpg"
 				},
 				{
 					"id": "plastic-injection",
 					"title": "Plastic injection",
-					"content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
+					"content": "Menea AB is working with partners that are known for high level of molding expertise, development of plastic injecton tools and product development. We are a pride supplier of plastic parts to some of the world leading companies in different industries in Europe and USA.",
 					"images": [
-						"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
-						"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
-						"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"
+						"/images/PlasticInjectionImages/Plastic-1.jpg",
+						"/images/PlasticInjectionImages/Plastic-2.jpg",
+						"/images/PlasticInjectionImages/Plastic-3.jpg"
 					],
-					"bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+					"bgImage": "/images/PlasticInjectionImages/PlasticInjection-Wallpaper.jpg"
 				},
 				{
 					"id": "grinding",
 					"title": "Grinding",
-					"content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
+					"content": "When tighter tolerances and a finer surface are required, we have the opportunity to offer grinding and polishing of surfaces. Through our partners, we supply machine builders with parts that include a range of operations such as:\n• Milling,\n• Hardening,\n• Black oxidation,\n• Grinding,\n• Marking",
 					"images": [
 						"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
 						"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
@@ -45,18 +45,18 @@
 				{
 					"id": "hardening",
 					"title": "Hardening",
-					"content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
+					"content": "Together with our partners we can provide different types of hardening and hardness tests where we verify hardening quality. Verification of hardening quality are mostly done by manufactures but when needed we use authorized testing labs depending on customer demands. Different types of hardening we provide: \n• Through hardening neutral hardening,\n• Case hardening surface hardening,\n• Induction hardening,\n• Nitriding hardening. \n\nDifferent types of hardness tests we provide: \n•  Vickers hardness test, \n•  Rockwell hardness test.",
 					"images": [
-						"/images/Hardening-0.jpg",
-						"/images/Hardening-1.jpg",
-						"/images/Hardening-2.jpg"
+						"/images/HardeningImages/Hardening-0.jpg",
+						"/images/HardeningImages/Hardening-1.jpg",
+						"/images/HardeningImages/Hardening-2.jpg"
 					],
-					"bgImage": "/images/Hardening-Wallpaper.jpg"
+					"bgImage": "/images/HardeningImages/Hardening-Wallpaper.jpg"
 				},
 				{
 					"id": "quality-insurance",
 					"title": "Quality insurance",
-					"content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
+					"content": "Quality insurance is mostly done by sending different type of product documentation before sending the outturn samples to customers. In that case customer can review documentation and give feedback before goods are packed. In many cases we can send full PPAP documentation to our customers together with outturn samples that includes: \n•  Material certificate, \n•  Surface treatment certificate, \n•  Hardening certificate, \n•  Measurement protocol with cpk, \n•  Control plan, \n•  D-map, \n•  Level of documentation is always communicated with customer prior to order.",
 					"images": [
 						"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
 						"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
@@ -69,17 +69,6 @@
 		{
 			"mechanical-engineering": [
 				{
-					"id": "conceptual",
-					"title": "Conceptual",
-					"content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-					"images": [
-						"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
-						"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
-						"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"
-					],
-					"bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-				},
-				{
 					"id": "3d-modelling",
 					"title": "3D Modelling",
 					"content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
@@ -91,20 +80,9 @@
 					"bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
 				},
 				{
-					"id": "detail-drafting",
-					"title": "Detail drafting",
-					"content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-					"images": [
-						"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
-						"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
-						"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"
-					],
-					"bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-				},
-				{
-					"id": "fea-calculations",
-					"title": "FEA Calculations",
-					"content": "Together with our partner companies we can provide mechanical engineering services to different type of industries. If possible, our team prefer to be involved in the beginning of the design process that in long term leads to cost effective solution. Our flexible resources can also be hired at customer site. We are most experience in following areas: (Design of Winches,Have duty cranes,Lifting equipment with instruction documentation,Fixture design,Plastic injection tools,Punching tools,FEA Calculations,R&D (Product development),Lifting equipment with user documentation (CE Marking),Piping,PDF to 3D model design,2D drawings from CAD)",
+					"id": "mechanical-design-and-fea-calculations",
+					"title": "Mechanical design and FEA Calculations",
+					"content": "Together with our partner companies we can provide mechanical engineering services to different type of industries. If possible, our team prefer to be involved in the beginning of the design process that in long term leads to cost effective solution. Our flexible resources can also be hired at customer site. We are most experience in following areas: \n• Design of Winches,\n• Heavy duty cranes,\n• Lifting equipment with instruction documentation,\n• Fixture design,\n• Plastic injection tools,\n• Punching tools,\n• FEA Calculations,\n• R&D (Product development),\n• Lifting equipment with user documentation (CE Marking),\n• Piping,\n• PDF to 3D model design,\n• 2D drawings from CAD.\n\nSoftware we use:\n• Inventor Autodesk\n• Catia\n• Ansys\n• Solid Works",
 					"images": [
 						"/images/FeaCalculationsImages/picture1.png",
 						"/images/FeaCalculationsImages/picture2.png",
@@ -112,17 +90,6 @@
 						"/images/FeaCalculationsImages/picture4.png"
 					],
 					"bgImage": "/images/FeaCalculationsImages/picture3.jpg"
-				},
-				{
-					"id": "3d-visualization",
-					"title": "3D Visualization",
-					"content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-					"images": [
-						"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
-						"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
-						"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"
-					],
-					"bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
 				}
 			]
 		},
