@@ -7,7 +7,6 @@ function NavLinks({link, handleNav}) {
 
   const [open, setOpen] = useState(false);
 
-  console.log(link)
 
   if(link) {
   return (

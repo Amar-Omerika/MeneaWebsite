@@ -4,7 +4,7 @@ export default function CarouselButtons({ previousSlide, nextSlide }) {
 	return (
 		<div className="ml-1'">
 			<div className="flex flex-row mx-auto justify-between">
-				<button
+				{/* <button
 					onClick={previousSlide}
 					type="button"
 					className="bg-blue text-white rounded-l-md border-r border-gray-100 py-2 hover:bg-lightBlue hover:text-white px-3"
@@ -24,8 +24,8 @@ export default function CarouselButtons({ previousSlide, nextSlide }) {
 						</svg>
 						<p className="ml-2">Prev</p>
 					</div>
-				</button>
-				<button
+				</button> */}
+				{/* <button
 					onClick={nextSlide}
 					type="button"
 					className="bg-blue text-white rounded-r-md py-2 border-l border-gray-200 hover:bg-lightBlue hover:text-white px-3"
@@ -45,6 +45,28 @@ export default function CarouselButtons({ previousSlide, nextSlide }) {
 							></path>
 						</svg>
 					</div>
+				</button> */}
+				<button onClick={previousSlide} type="button">
+					<a
+						href="#_"
+						class="relative inline-flex items-center justify-start py-3 pl-4 pr-4 overflow-hidden font-semibold text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-4 hover:pr-6 bg-gray-50 group"
+					>
+						<span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-indigo-600 group-hover:h-full"></span>
+						<span class="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white">
+							Prev
+						</span>
+					</a>
+				</button>
+				<button onClick={nextSlide} type="button">
+					<a
+						href="#_"
+						class="relative inline-flex items-center justify-start py-3 pl-4 pr-4 overflow-hidden font-semibold text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-4 hover:pr-6 bg-gray-50 group"
+					>
+						<span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-indigo-600 group-hover:h-full"></span>
+						<span class="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white">
+							Next
+						</span>
+					</a>
 				</button>
 			</div>
 		</div>

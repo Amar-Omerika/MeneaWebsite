@@ -5,7 +5,13 @@ import CarouselButtons from "./CarouselButtons";
  * This Buttons will be passed through props to CarouselButtons component
  *  The carousel will also loop back to the first image once the user reaches the end.
  */
-const Carousel = ({ imgData, title }) => {
+const Carousel = ({
+	imgData,
+	showFullImage,
+	setShowFullImage,
+	imageRoute,
+	setImageRoute,
+}) => {
 	const [currentIndex, setCurrentIndex] = useState(0);
 
 	const prevSlide = () => {
@@ -21,14 +27,20 @@ const Carousel = ({ imgData, title }) => {
 		const index = shouldResetIndex ? 0 : currentIndex + 1;
 		setCurrentIndex(index);
 	};
+	const handleModal = () => {
+		setShowFullImage(true);
+		setImageRoute(window.location.origin + imgData[currentIndex]);
+	};
 
 	return (
 		<div>
-			<img
-				src={window.location.origin + imgData[currentIndex]}
-				alt="slide"
-				className="desktop:max-w-[600px] desktop:min-w-[600px] desktop:max-h-[400px] desktop:min-h-[400px]  tablet:max-w-[400px] tablet:min-w-[400px] tablet:max-h-[400px] tablet:min-h-[400px] px-3 py-6"
-			/>
+			<button onClick={handleModal}>
+				<img
+					src={window.location.origin + imgData[currentIndex]}
+					alt="slide"
+					className="desktop:max-w-[600px] desktop:min-w-[600px] desktop:max-h-[400px] desktop:min-h-[400px]  tablet:max-w-[400px] tablet:min-w-[400px] tablet:max-h-[400px] tablet:min-h-[400px] px-3 py-6"
+				/>
+			</button>
 			<CarouselButtons previousSlide={prevSlide} nextSlide={nextSlide} />
 		</div>
 	);
