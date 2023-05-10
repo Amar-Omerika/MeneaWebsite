@@ -7,7 +7,6 @@ function SublinkPage({ id, element }) {
 	const [showFullImage, setShowFullImage] = useState(false);
 	const [imageRoute, setImageRoute] = useState();
 	const data = fullData.data;
-	console.log("test", imageRoute);
 
 	return (
 		<>

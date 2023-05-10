@@ -38,7 +38,8 @@ const Carousel = ({
 				<img
 					src={window.location.origin + imgData[currentIndex]}
 					alt="slide"
-					className="desktop:max-w-[600px] desktop:min-w-[600px] desktop:max-h-[400px] desktop:min-h-[400px]  tablet:max-w-[400px] tablet:min-w-[400px] tablet:max-h-[400px] tablet:min-h-[400px] px-3 py-6"
+					className="object-cover desktop:max-w-[600px] desktop:min-w-[600px] desktop:max-h-[400px] desktop:min-h-[400px]  tablet:max-w-[400px] tablet:min-w-[400px] tablet:max-h-[400px] tablet:min-h-[400px] px-3 py-6"
+					// className="flex items-stretch px-3 py-6"
 				/>
 			</button>
 			<CarouselButtons previousSlide={prevSlide} nextSlide={nextSlide} />
