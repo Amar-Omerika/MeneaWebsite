@@ -13,107 +13,138 @@ function Navbar() {
 	const links = [
 		{
 			name: "Home",
-      link: "/",
+			link: "/",
 			sublinks: [],
 		},
 		{
-			name: "Outsourcing",
-      link: "/outsourcing",
+			name: "About",
+			link: "/about",
+			sublinks: [],
+		},
+		{
+			name: "Manufacturing",
+			link: "/manufacturing",
 			sublinks: [
 				{
-					name: "Turning",
-					link: "/outsourcing/turning",
+					name: "CNC Machining & Grinding",
+					link: "/manufacturing/cnc-machining-grinding",
 				},
 				{
-					name: "Milling",
-					link: "/outsourcing/milling",
+					name: "Sheet Metal & Laser Cutting",
+					link: "/manufacturing/sheetmetal-lasercutting",
 				},
 				{
-					name: "Plastic Injection",
-					link: "/outsourcing/plastic-injection",
+					name: "Die Casting",
+					link: "/manufacturing/die-casting",
 				},
 				{
-					name: "Grinding",
-					link: "/outsourcing/grinding",
+					name: "Surface Treatment",
+					link: "/manufacturing/surface-treatment",
 				},
 				{
 					name: "Hardening",
-					link: "/outsourcing/hardening",
+					link: "/manufacturing/hardening",
 				},
 				{
-					name: "Quality insurance",
-					link: "/outsourcing/quality-insurance",
+					name: "Plastic Injection",
+					link: "/manufacturing/plastic-injection",
+				},
+				{
+					name: "Assembly",
+					link: "/manufacturing/assembly",
+				},
+				{
+					name: "Packaging & Logistics",
+					link: "/manufacturing/packaging-logistics",
 				},
 			],
 		},
 		{
-			name: "Mechanical Engineering",
-      link: "/mechanical-engineering",
+			name: "QA",
+			link: "/QA",
 			sublinks: [
-				{
-					name: "Conceptual",
-					link: "/mechanical-engineering/conceptual",
-				},
-				{
-					name: "3D Modelling",
-					link: "/mechanical-engineering/3d-modelling",
-				},
-				{
-					name: "Detail Drafting",
-					link: "/mechanical-engineering/detail-drafting",
-				},
-				{
-					name: "Mechanical design and FEA Calculations",
-					link: "/mechanical-engineering/mechanical-design-and-fea-calculations",
-				},
-				{
-					name: "3D Visualization",
-					link: "/mechanical-engineering/3d-visualization",
-				},
+				// {
+				// 	name: "Conceptual",
+				// 	link: "/mechanical-engineering/conceptual",
+				// },
+				// {
+				// 	name: "3D Modelling",
+				// 	link: "/mechanical-engineering/3d-modelling",
+				// },
+				// {
+				// 	name: "Detail Drafting",
+				// 	link: "/mechanical-engineering/detail-drafting",
+				// },
+				// {
+				// 	name: "Mechanical design and FEA Calculations",
+				// 	link: "/mechanical-engineering/mechanical-design-and-fea-calculations",
+				// },
+				// {
+				// 	name: "3D Visualization",
+				// 	link: "/mechanical-engineering/3d-visualization",
+				// },
 			],
 		},
 		{
-			name: "BIM Services",
-      link: "/bim-services",
+			name: "Engineering",
+			link: "/engineering",
 			sublinks: [
-				{
-					name: "CAD to BIM  Model",
-					link: "/bim-services/cad-to-bim-model",
-				},
-				{
-					name: "Scan to BIM  Model",
-					link: "/bim-services/scan-to-bim-model",
-				},
-				{
-					name: "PDF to BIM  Model",
-					link: "/bim-services/pdf-to-bim-model",
-				},
-				{
-					name: "BIM Families Creation",
-					link: "/bim-services/bim-families-creation",
-				},
-				{
-					name: "Scanning",
-					link: "/bim-services/scanning",
-				},
+				// {
+				// 	name: "CAD to BIM  Model",
+				// 	link: "/bim-services/cad-to-bim-model",
+				// },
+				// {
+				// 	name: "Scan to BIM  Model",
+				// 	link: "/bim-services/scan-to-bim-model",
+				// },
+				// {
+				// 	name: "PDF to BIM  Model",
+				// 	link: "/bim-services/pdf-to-bim-model",
+				// },
+				// {
+				// 	name: "BIM Families Creation",
+				// 	link: "/bim-services/bim-families-creation",
+				// },
+				// {
+				// 	name: "Scanning",
+				// 	link: "/bim-services/scanning",
+				// },
 			],
 		},
 		{
-			name: "Consultion",
-      link: "/consultion",
+			name: "BIM",
+			link: "/bim",
 			sublinks: [
-				{
-					name: "Quality management",
-					link: "/consultion/quality-management",
-				},
-				{
-					name: "Project management",
-					link: "/consultion/project-management",
-				},
-				{
-					name: "Purchasing",
-					link: "/consultion/purchasing",
-				},
+				// {
+				// 	name: "Quality management",
+				// 	link: "/consultion/quality-management",
+				// },
+				// {
+				// 	name: "Project management",
+				// 	link: "/consultion/project-management",
+				// },
+				// {
+				// 	name: "Purchasing",
+				// 	link: "/consultion/purchasing",
+				// },
+			],
+		},
+		{
+			name: "Contact",
+			link: "/contact",
+			sublinks: [
+				// {
+				// 	name: "Quality management",
+				// 	link: "/consultion/quality-management",
+				// },
+				// {
+				// 	name: "Project management",
+				// 	link: "/consultion/project-management",
+				// },
+				// {
+				// 	name: "Purchasing",
+				// 	link: "/consultion/purchasing",
+				// },
 			],
 		},
 	];

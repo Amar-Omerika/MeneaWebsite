@@ -1,24 +1,72 @@
 {
 	"data": [
 		{
-			"outsourcing": [
+			"manufacturing": [
 				{
-					"id": "turning",
-					"title": "Turning",
-					"content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-					"images": [],
-					"bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+					"id": "cnc-machining-grinding",
+					"title": "CNC Machining & Grinding",
+					"content": "We offer high quality machined parts at low cost and with short lead time. Our partners have highly qualified staff and state of the art machines.The machine park at our manufacturers includes:\n• 3, 4 and 5 axis milling machines, \n• Bed mills, \n• Gantry mills, \n• Turning machines with Y-axis and a 360-degree B-axis, \n• CNC Grinding machines, \n• NC measurement machines, \n\n We machine different type of materials:\n• Steel, \n• Aluminium, \n• Copper, \n• Brass, \n• Aluminium bronze, \n• Stainless, \n• Plastic, \n• Cast materials,  \n\n We can also assemble parts before shipping.\n",
+					"images": [
+						"/images/CNCMachiningGrinding/machining1.jpg",
+						"/images/CNCMachiningGrinding/machining2.jpg",
+						"/images/CNCMachiningGrinding/machining3.jpg",
+						"/images/CNCMachiningGrinding/machining4.jpg",
+						"/images/CNCMachiningGrinding/machining5.jpg",
+						"/images/CNCMachiningGrinding/machining6.jpg",
+						"/images/CNCMachiningGrinding/machining7.jpg",
+						"/images/CNCMachiningGrinding/machining8.jpg",
+						"/images/CNCMachiningGrinding/machining9.jpg",
+						"/images/CNCMachiningGrinding/machining10.jpg",
+						"/images/CNCMachiningGrinding/machining11.jpg",
+						"/images/CNCMachiningGrinding/machining12.jpg"
+					],
+					"bgImage": "/images/CNCMachiningGrinding/machining1.jpg"
 				},
 				{
-					"id": "milling",
-					"title": "Milling",
-					"content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
+					"id": "sheetmetal-lasercutting",
+					"title": "Sheet Metal & Laser Cutting",
+					"content": "We laser cut in most type of materials.There are many advantages to choosing laser cutting. Firstly, our laser cutters have high precision and provide fine and precise cuts in your material. With laser cutting, you can get both complicated patterns and straight lines. Because the laser beam is so thin, very little material is spilled. Materials that have been cut with a laser also do not need to be post-processed, which means that production is faster than with other methods.We provide laser cutting, bending, welding, riveting, coating  and assembling of sheet metal.Today we produce everything from shims for industrial fixtures to component plates for electrical cabinets.",
 					"images": [
-						"/images/MillingImages/Milling-0.jpg",
-						"/images/MillingImages/Milling-1.jpg",
-						"/images/MillingImages/Milling-2.jpg"
+						"/images/SheetMetalLaserCutting/sheetmetal1.jpg",
+						"/images/SheetMetalLaserCutting/sheetmetal2.png",
+						"/images/SheetMetalLaserCutting/sheetmetal3.jpg",
+						"/images/SheetMetalLaserCutting/sheetmetal4.jpg",
+						"/images/SheetMetalLaserCutting/sheetmetal5.jpg",
+						"/images/SheetMetalLaserCutting/sheetmetal6.jpg",
+						"/images/SheetMetalLaserCutting/sheetmetal7.jpg"
 					],
-					"bgImage": "/images/MillingImages/Milling-Wallpaper.jpg"
+					"bgImage": "/images/SheetMetalLaserCutting/sheetmetal6.jpg"
+				},
+				{
+					"id": "die-casting",
+					"title": "Die Casting",
+					"content": "We offer high quality die casting parts and molds for different types of iron, aluminium and aluminium bronze.When it comes to aluminium we offer:\n•Gravity casting,\n• Low pressure casting,\n• High pressure die casting,\n• In most cases we also offer additional CNC machining of casted parts and molds.",
+					"images": [
+						"/images/DieCasting/diecasting2.jpg",
+						"/images/DieCasting/diecasting1.jpg"
+					],
+					"bgImage": "/images/DieCasting/diecasting2.jpg"
+				},
+				{
+					"id": "surface-treatment",
+					"title": "Surface Treatment",
+					"content": "We carry out most types of surface treatment:\n• Electric Galvanization,\n• Hot dip galvanization,\n• Anodizing in different colours,\n• Manganese Phosphating,\n• Black Oxidizing,\n• AlCrN Top,\n• And more",
+					"images": [
+						"/images/SurfaceTreatment/surfacetreatment1.jpg",
+						"/images/SurfaceTreatment/surfacetreatment2.jpg",
+						"/images/SurfaceTreatment/surfacetreatment3.jpg"
+					],
+					"bgImage": "/images/SurfaceTreatment/surfacetreatment1.jpg"
+				},
+				{
+					"id": "hardening",
+					"title": "Hardening",
+					"content": "We harden and temper your products with following methods:\n• Through hardening (neutral hardening),\n• Case Hardening,\n• Induction Hardening,\n• Nitriding,\n• And more.After hardening we can grind and machine parts to compensate for material deviations",
+					"images": [
+						"/images/HardeningImages/Hardening-0.png",
+						"/images/HardeningImages/Hardening-1.jpg"
+					],
+					"bgImage": "/images/HardeningImages/Hardening-0.png"
 				},
 				{
 					"id": "plastic-injection",
@@ -27,70 +75,60 @@
 					"images": [
 						"/images/PlasticInjectionImages/Plastic-1.jpg",
 						"/images/PlasticInjectionImages/Plastic-2.jpg",
-						"/images/PlasticInjectionImages/Plastic-3.jpg"
+						"/images/PlasticInjectionImages/Plastic-3.jpg",
+						"/images/PlasticInjectionImages/Plastic-4.jpg"
 					],
 					"bgImage": "/images/PlasticInjectionImages/PlasticInjection-Wallpaper.jpg"
 				},
 				{
-					"id": "grinding",
-					"title": "Grinding",
-					"content": "When tighter tolerances and a finer surface are required, we have the opportunity to offer grinding and polishing of surfaces. Through our partners, we supply machine builders with parts that include a range of operations such as:\n• Milling,\n• Hardening,\n• Black oxidation,\n• Grinding,\n• Marking",
+					"id": "assembly",
+					"title": "Assembly",
+					"content": "To reduce cost for assembly it is wise to make it in cost effective country like Bosnia & Herzegovina, Slovenia and Croatia.",
 					"images": [
-						"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
-						"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
-						"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"
+						"/images/Assembly/assembly1.jpg",
+						"/images/Assembly/assembly2.jpg",
+						"/images/Assembly/assembly3.jpg"
 					],
-					"bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+					"bgImage": "/images/Assembly/assembly1.jpg"
 				},
 				{
-					"id": "hardening",
-					"title": "Hardening",
-					"content": "Together with our partners we can provide different types of hardening and hardness tests where we verify hardening quality. Verification of hardening quality are mostly done by manufactures but when needed we use authorized testing labs depending on customer demands. Different types of hardening we provide: \n• Through hardening neutral hardening,\n• Case hardening surface hardening,\n• Induction hardening,\n• Nitriding hardening. \n\nDifferent types of hardness tests we provide: \n•  Vickers hardness test, \n•  Rockwell hardness test.",
+					"id": "packaging-logistics",
+					"title": "Packaging & Logistics",
+					"content": "Manufactured items are always carefully packed.They can also be packed and marked according to customers preference.We have local staff to monitor logistics.With our manufacturing in Bosnia-Herzegovina, Slovenia and Croatia we can offer much shorter shipping time to European countries than our oversea competitors, often to better quality and landed cost.Our main market is Scandinavia but today we also deliver to our customers subsidiaries in Brazil, USA, China and Balkan countries.",
 					"images": [
-						"/images/HardeningImages/Hardening-0.jpg",
-						"/images/HardeningImages/Hardening-1.jpg",
-						"/images/HardeningImages/Hardening-2.jpg"
+						"/images/PackagingLogistics/Packaging2.jpg",
+						"/images/PackagingLogistics/Packaging3.jpg",
+						"/images/PackagingLogistics/Logistics.jpg"
 					],
-					"bgImage": "/images/HardeningImages/Hardening-Wallpaper.jpg"
-				},
-				{
-					"id": "quality-insurance",
-					"title": "Quality insurance",
-					"content": "Quality insurance is mostly done by sending different type of product documentation before sending the outturn samples to customers. In that case customer can review documentation and give feedback before goods are packed. In many cases we can send full PPAP documentation to our customers together with outturn samples that includes: \n•  Material certificate, \n•  Surface treatment certificate, \n•  Hardening certificate, \n•  Measurement protocol with cpk, \n•  Control plan, \n•  D-map, \n•  Level of documentation is always communicated with customer prior to order.",
-					"images": [
-						"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
-						"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
-						"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"
-					],
-					"bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+					"bgImage": "/images/PackagingLogistics/Logistics.jpg"
 				}
 			]
 		},
 		{
-			"mechanical-engineering": [
-				{
-					"id": "3d-modelling",
-					"title": "3D Modelling",
-					"content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
-					"images": [
-						"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
-						"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
-						"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"
-					],
-					"bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-				},
-				{
-					"id": "mechanical-design-and-fea-calculations",
-					"title": "Mechanical design and FEA Calculations",
-					"content": "Together with our partner companies we can provide mechanical engineering services to different type of industries. If possible, our team prefer to be involved in the beginning of the design process that in long term leads to cost effective solution. Our flexible resources can also be hired at customer site. We are most experience in following areas: \n• Design of Winches,\n• Heavy duty cranes,\n• Lifting equipment with instruction documentation,\n• Fixture design,\n• Plastic injection tools,\n• Punching tools,\n• FEA Calculations,\n• R&D (Product development),\n• Lifting equipment with user documentation (CE Marking),\n• Piping,\n• PDF to 3D model design,\n• 2D drawings from CAD.\n\nSoftware we use:\n• Inventor Autodesk\n• Catia\n• Ansys\n• Solid Works",
-					"images": [
-						"/images/FeaCalculationsImages/picture1.png",
-						"/images/FeaCalculationsImages/picture2.png",
-						"/images/FeaCalculationsImages/picture3.jpg",
-						"/images/FeaCalculationsImages/picture4.png"
-					],
-					"bgImage": "/images/FeaCalculationsImages/picture3.jpg"
-				}
+			"QA": [
+				// {
+				// 	"id": "3d-modelling",
+				// 	"title": "3D Modelling",
+				// 	"content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est molestias corporis quod placeat modi saepe sequi earum eum voluptate quas quam magni fugiat consequatur cumque id libero temporibus at suscipit fuga nesciunt, minus soluta similique dolor quos. Eos voluptate modi aliquam optio debitis minima. Sit blanditiis magnam doloremque beatae non excepturi optio sapiente laudantium architecto sunt provident impedit reiciendis molestias, laboriosam debitis ab harum labore facilis eos, officiis, consequatur iure! Et distinctio rerum fugit quod!",
+				// 	"images": [
+				// 		"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+				// 		"https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/1:1/w_2000,h_2000,c_limit/gettyimages-1146431497.jpg",
+				// 		"https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg"
+				// 	],
+				// 	"bgImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+				// },
+				// {
+				// 	"id": "mechanical-design-and-fea-calculations",
+				// 	"title": "Mechanical design and FEA Calculations",
+				// 	"content": "Together with our partner companies we can provide mechanical engineering services to different type of industries. If possible, our team prefer to be involved in the beginning of the design process that in long term leads to cost effective solution. Our flexible resources can also be hired at customer site. We are most experience in following areas: \n• Design of Winches,\n• Heavy duty cranes,\n• Lifting equipment with instruction documentation,\n• Fixture design,\n• Plastic injection tools,\n• Punching tools,\n• FEA Calculations,\n• R&D (Product development),\n• Lifting equipment with user documentation (CE Marking),\n• Piping,\n• PDF to 3D model design,\n• 2D drawings from CAD.\n\nSoftware we use:\n• Inventor Autodesk\n• Catia\n• Ansys\n• Solid Works",
+				// 	"images": [
+				// 		"/images/FeaCalculationsImages/picture1.png",
+				// 		"/images/FeaCalculationsImages/picture2.png",
+				// 		"/images/FeaCalculationsImages/picture3.jpg",
+				// 		"/images/FeaCalculationsImages/picture4.png"
+				// 	],
+				// 	"bgImage": "/images/FeaCalculationsImages/picture3.jpg"
+				// }
 			]
 		},
 		{
