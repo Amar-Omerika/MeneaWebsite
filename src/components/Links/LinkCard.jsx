@@ -3,9 +3,7 @@ import { useNavigate } from 'react-router'
 
 function LinkCard({service}) {
 
-  const navigate = useNavigate()
- 
-
+  const navigate = useNavigate();
   return (
 
     <div onClick={()=>navigate(`${service.id}`)} className='w-full cursor-pointer relative z-10 h-[300px] text-white group rounded-xl shadow-md shadow-[#757575] hover:shadow-[#444444] overflow-hidden'>

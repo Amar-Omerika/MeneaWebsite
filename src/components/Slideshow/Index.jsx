@@ -67,7 +67,7 @@ export default function SliderComponent() {
 						className="object-cover w-full h-[500px]"
 						src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
 					/>
-					<motion.div variants={variants.item} initial="initial" animate="animate" className="Z-50 mt-[-350px] w-4/5 mb-20 ml-14 flex-col flex justify-between min-h-[250px] ">
+					{/* <motion.div variants={variants.item} initial="initial" animate="animate" className="Z-50 mt-[-350px] w-4/5 mb-20 ml-14 flex-col flex justify-between min-h-[250px] ">
 						<motion.p variants={variants.items} initial="initial" animate="animate" className=" text-white font-customfont text-3xl font-bold">
 							MECHANICAL
 						</motion.p>
@@ -84,14 +84,14 @@ export default function SliderComponent() {
 						>
 							Read More
 						</button>
-					</motion.div>
+					</motion.div> */}
 				</SwiperSlide>
 				<SwiperSlide>
 					<img
 						className="object-cover w-full h-[500px]"
-            src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+						src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
 					/>
-					<div className="Z-50 mt-[-350px] w-4/5 mb-20 ml-14 flex-col flex justify-between min-h-[250px] ">
+					{/* <div className="Z-50 mt-[-350px] w-4/5 mb-20 ml-14 flex-col flex justify-between min-h-[250px] ">
 						<p className=" text-white font-customfont text-3xl font-bold">
 							BIM
 						</p>
@@ -108,14 +108,14 @@ export default function SliderComponent() {
 						>
 							Read More
 						</button>
-					</div>
+					</div> */}
 				</SwiperSlide>
 				<SwiperSlide>
 					<img
 						className="object-cover w-full h-[500px]"
 						src="https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"
 					/>
-					<div className="Z-50 mt-[-350px] w-4/5 mb-20 ml-14 flex-col flex justify-between min-h-[250px] ">
+					{/* <div className="Z-50 mt-[-350px] w-4/5 mb-20 ml-14 flex-col flex justify-between min-h-[250px] ">
 						<p className=" text-white font-customfont text-3xl font-bold">
 							OUTSOURCED
 						</p>
@@ -132,7 +132,7 @@ export default function SliderComponent() {
 						>
 							Read More
 						</button>
-					</div>
+					</div> */}
 				</SwiperSlide>
 			</Swiper>
 		</AnimatePresence>
