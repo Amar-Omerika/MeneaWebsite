@@ -11,7 +11,7 @@ export default function Home() {
 			<SliderComponent />
 			<ServiceSection />
 			{/* <LatestNews /> */}
-			<AboutUs />
+			{/* <AboutUs /> */}
 			<Footer />
 		</div>
 	);

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import LinkCard from "./LinkCard";
 import Carousel from "../Carousel";
 import { ViewImageModal } from "../ViewImageModal/ViewImageModal";
+import About from "../AboutUs/Index";
 
 let fullData = require("../../assets/data/sublinksData.json");
 
@@ -11,8 +12,6 @@ function LinkPage({ link }) {
 	const filteredData = links[link].filter((item) => item);
 	const [showFullImage, setShowFullImage] = useState(false);
 	const [imageRoute, setImageRoute] = useState();
-	console.log("links", links);
-	console.log("link", link);
 
 	return (
 		// <div className="mt-[65px] min-h-screen py-8 px-4">
@@ -27,7 +26,7 @@ function LinkPage({ link }) {
 		// </div>
 		<>
 			{link === "about" ? (
-				<p>Test</p>
+				<About />
 			) : (
 				<>
 					{filteredData.map((item) => {
