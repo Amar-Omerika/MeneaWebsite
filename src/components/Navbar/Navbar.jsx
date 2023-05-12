@@ -62,28 +62,7 @@ function Navbar() {
 		{
 			name: "QA",
 			link: "/QA",
-			sublinks: [
-				// {
-				// 	name: "Conceptual",
-				// 	link: "/mechanical-engineering/conceptual",
-				// },
-				// {
-				// 	name: "3D Modelling",
-				// 	link: "/mechanical-engineering/3d-modelling",
-				// },
-				// {
-				// 	name: "Detail Drafting",
-				// 	link: "/mechanical-engineering/detail-drafting",
-				// },
-				// {
-				// 	name: "Mechanical design and FEA Calculations",
-				// 	link: "/mechanical-engineering/mechanical-design-and-fea-calculations",
-				// },
-				// {
-				// 	name: "3D Visualization",
-				// 	link: "/mechanical-engineering/3d-visualization",
-				// },
-			],
+			sublinks: [],
 		},
 		{
 			name: "Engineering",
