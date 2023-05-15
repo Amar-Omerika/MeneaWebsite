@@ -4,7 +4,7 @@ import NavLinks from "./NavLinks";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { AnimatePresence, motion } from "framer-motion";
-import logo from "../../assets/menea_logo.png";
+import logo from "../../assets/menea_logo1.gif";
 import menea_text_logo from "../../assets/menea.png";
 import { Link } from "react-router-dom";
 
@@ -128,7 +128,6 @@ function Navbar() {
 		},
 	];
 
-
 	const handleNav = () => {
 		setOpen(!open);
 	};
@@ -160,11 +159,11 @@ function Navbar() {
 							>
 								<span>
 									<img
-										className="h-[30px] w-[30px] laptop:h-[50px] laptop:w-[50px]"
+										className="h-[30px] w-[80px] laptop:h-[50px] laptop:w-[150px]"
 										src={logo}
 									/>
 								</span>
-								<img className="ml-2" src={menea_text_logo} />
+								{/* <img className="ml-2" src={menea_text_logo} /> */}
 								<span className="sr-only">Company Logo</span>
 							</Link>
 						</motion.div>

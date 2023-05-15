@@ -9,7 +9,7 @@ export default function Home() {
 		<div className="w-screen max-w-full">
 			<Navbar />
 			<SliderComponent />
-			<ServiceSection />
+			{/* <ServiceSection /> */}
 			{/* <LatestNews /> */}
 			{/* <AboutUs /> */}
 			<Footer />

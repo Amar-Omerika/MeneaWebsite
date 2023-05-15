@@ -4,6 +4,7 @@ import LinkCard from "./LinkCard";
 import Carousel from "../Carousel";
 import { ViewImageModal } from "../ViewImageModal/ViewImageModal";
 import About from "../AboutUs/Index";
+import Contact from "../Contact/Index";
 
 let fullData = require("../../assets/data/sublinksData.json");
 
@@ -27,6 +28,8 @@ function LinkPage({ link }) {
 		<>
 			{link === "about" ? (
 				<About />
+			) : link === "contact" ? (
+				<Contact />
 			) : (
 				<>
 					{filteredData.map((item) => {

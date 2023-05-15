@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import logo from "../../assets/menea_logo.png";
+import logo from "../../assets/menea_logo1.gif";
 
 const navigation = {
 	services: [
@@ -57,8 +57,8 @@ const navigation = {
 };
 
 function getCurrentYear() {
-  const year = new Date().getFullYear();
-  return year;
+	const year = new Date().getFullYear();
+	return year;
 }
 
 export default function Footer() {
@@ -73,7 +73,7 @@ export default function Footer() {
 			<div className="mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 bg-[#36425d]">
 				<div className="xl:grid xl:grid-cols-2 xl:gap-8">
 					<div className="space-y-8 :col-span-2">
-						<img className="h-[50px] w-[50px]" src={logo} />
+						<img className="h-[50px] w-[150px]" src={logo} />
 
 						<div className="flex space-x-6 justify-center">
 							{navigation.social.map((item) => (
@@ -92,48 +92,52 @@ export default function Footer() {
 						<div className="md:gap-8 col-span-2">
 							<div className="hidden laptop:block">
 								<h3 className="font-bold text-xl text-gray-900 font-customfont text-[#fff]">
-                Together with our Swedish and Bosnian partners we are offering following services:
+									Together with our Swedish and Bosnian partners we are offering
+									following services:
 								</h3>
 								<ul className="mt-4 text-base font-customfont text-[#fff] md:grid grid-cols-3 gap-4">
 									<li>
-                    <p className="font-bold">Manufacturing / Sourcing Services</p>
-                    <ul className="list-disc pl-6">
-                      <li>CNC Machining</li>
-                      <li>Laser Cutting</li>
-                      <li>Casting</li>
-                      <li>Plastic Injection Dies</li>
-                      <li>Plastic Parts</li>
-                    </ul>
+										<p className="font-bold">
+											Manufacturing / Sourcing Services
+										</p>
+										<ul className="list-disc pl-6">
+											<li>CNC Machining</li>
+											<li>Laser Cutting</li>
+											<li>Casting</li>
+											<li>Plastic Injection Dies</li>
+											<li>Plastic Parts</li>
+										</ul>
 									</li>
 									<li>
-                    <p className="font-bold">Engineering Services</p>
-                    <ul className="list-disc pl-6">
-                      <li>BIM</li>
-                      <li>Conceptual Design</li>
-                      <li>Production Modeling</li>
-                      <li>Tools and Fixture Design</li>
-                      <li>Detail Design</li>
-                      <li>Rendering</li>
-                      <li>PDF to 3D Models</li>
-                      <li>FEA Calculations</li>
-                      <li>Quality Assurance</li>
-                    </ul>
+										<p className="font-bold">Engineering Services</p>
+										<ul className="list-disc pl-6">
+											<li>BIM</li>
+											<li>Conceptual Design</li>
+											<li>Production Modeling</li>
+											<li>Tools and Fixture Design</li>
+											<li>Detail Design</li>
+											<li>Rendering</li>
+											<li>PDF to 3D Models</li>
+											<li>FEA Calculations</li>
+											<li>Quality Assurance</li>
+										</ul>
 									</li>
-                  <li>
-                  <p className="font-bold">Packaging & Shipping</p>
-                  <ul className="list-disc">
-                    <li>Our customers can confirm that our prices and quality are often better than our competitors in Asia and our delivery times are much shorter. 
-                    </li>
-                    <li>
-                    Transport by truck from the Balkans to Sweden can be done in only few days
-                    </li>
-                  </ul>
-
-                  </li>
-
+									<li>
+										<p className="font-bold">Packaging & Shipping</p>
+										<ul className="list-disc">
+											<li>
+												Our customers can confirm that our prices and quality
+												are often better than our competitors in Asia and our
+												delivery times are much shorter.
+											</li>
+											<li>
+												Transport by truck from the Balkans to Sweden can be
+												done in only few days
+											</li>
+										</ul>
+									</li>
 								</ul>
 							</div>
-
 						</div>
 						<div className="md:grid md:grid-cols-2 col-span-3 md:gap-8">
 							<div className="text-center">
@@ -145,8 +149,8 @@ export default function Footer() {
 										<li key={item.name}>
 											<a
 												href={item.href}
-                        target="_blank"
-                        rel="noreferrer"
+												target="_blank"
+												rel="noreferrer"
 												className="text-base  hover:text-beige font-customfont text-[#fff]"
 											>
 												{item.name}
@@ -161,9 +165,7 @@ export default function Footer() {
 								</h3>
 								<ul className="mt-4 space-y-4">
 									{navigation.location.map((item) => (
-										<li key={item.name}>
-												{item.name}
-										</li>
+										<li key={item.name}>{item.name}</li>
 									))}
 								</ul>
 							</div>
