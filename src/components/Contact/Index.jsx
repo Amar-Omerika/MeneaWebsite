@@ -43,7 +43,7 @@ export default function Index() {
 								>
 									<li
 										key={person.name}
-										className="rounded-2xl bg-[#7474cc] opacity-90 px-8 py-10 font-customfont"
+										className="rounded-2xl bg-[#063970] opacity-90 px-8 py-10 font-customfont"
 									>
 										<img
 											className="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56 object-cover"
