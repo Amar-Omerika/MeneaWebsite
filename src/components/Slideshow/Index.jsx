@@ -8,6 +8,7 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import { AnimatePresence, motion } from "framer-motion";
+// import AboutImage1 from "/images/About/about1.png";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
