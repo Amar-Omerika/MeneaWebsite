@@ -26,7 +26,7 @@ function SublinkPage({ id, element }) {
 											src={window.location.origin + x.bgImage}
 											alt="engineering"
 										/>
-										<div className=" font-customFont absolute top-0 left-0 right-0 flex flex-col gap-9 justify-center items-center  h-full desktop:text-6xl text-xl font-semibold text-white px-6 uppercase">
+										<div className=" font-customfont absolute top-0 left-0 right-0 flex flex-col gap-9 justify-center items-center  h-full desktop:text-6xl text-xl font-semibold text-white px-6 uppercase">
 											<p>{x.title}</p>
 										</div>
 									</div>

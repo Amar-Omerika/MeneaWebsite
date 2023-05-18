@@ -8,42 +8,38 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import { AnimatePresence, motion } from "framer-motion";
-// import AboutImage1 from "/images/About/about1.png";
-
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function SliderComponent() {
-
-
-  const variants = {
-    item : {
-      initial: {
-        opacity: 0,
-      },
-      animate: {
-        opacity: 1,
-        transition: {
-          duration: .4,
-          when: 'beforeChildren',
-          staggerChildren: 0.1,
-        }
-      },
-    },
-    items : {
-      initial: {
-        opacity:0,
-        transform: "translateY(-30%)",
-      },
-      animate: {
-        opacity:1,
-        transform: "translateY(0%)",
-        transition: {
-          duration: .6,
-        }
-      },
-    },
-  }
+	const variants = {
+		item: {
+			initial: {
+				opacity: 0,
+			},
+			animate: {
+				opacity: 1,
+				transition: {
+					duration: 0.4,
+					when: "beforeChildren",
+					staggerChildren: 0.1,
+				},
+			},
+		},
+		items: {
+			initial: {
+				opacity: 0,
+				transform: "translateY(-30%)",
+			},
+			animate: {
+				opacity: 1,
+				transform: "translateY(0%)",
+				transition: {
+					duration: 0.6,
+				},
+			},
+		},
+	};
 
 	return (
 		<AnimatePresence>
@@ -66,7 +62,7 @@ export default function SliderComponent() {
 				<SwiperSlide>
 					<img
 						className="object-cover w-full h-[500px]"
-						src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+						src="images/PackagingLogistics/Logistics.jpg"
 					/>
 					{/* <motion.div variants={variants.item} initial="initial" animate="animate" className="Z-50 mt-[-350px] w-4/5 mb-20 ml-14 flex-col flex justify-between min-h-[250px] ">
 						<motion.p variants={variants.items} initial="initial" animate="animate" className=" text-white font-customfont text-3xl font-bold">
@@ -90,7 +86,7 @@ export default function SliderComponent() {
 				<SwiperSlide>
 					<img
 						className="object-cover w-full h-[500px]"
-						src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+						src="images/About/about4.jpg"
 					/>
 					{/* <div className="Z-50 mt-[-350px] w-4/5 mb-20 ml-14 flex-col flex justify-between min-h-[250px] ">
 						<p className=" text-white font-customfont text-3xl font-bold">
@@ -114,7 +110,7 @@ export default function SliderComponent() {
 				<SwiperSlide>
 					<img
 						className="object-cover w-full h-[500px]"
-						src="https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"
+						src="images/Engineering/engineering1.jpg"
 					/>
 					{/* <div className="Z-50 mt-[-350px] w-4/5 mb-20 ml-14 flex-col flex justify-between min-h-[250px] ">
 						<p className=" text-white font-customfont text-3xl font-bold">
