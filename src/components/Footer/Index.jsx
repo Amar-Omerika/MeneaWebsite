@@ -13,9 +13,9 @@ const navigation = {
 		{ name: "info@menea.se", href: "mailto:info@menea.se" },
 	],
 	location: [
-		{ name: "Sweden", href: "#" },
-		{ name: "371 34 Karlskrona", href: "#" },
 		{ name: "Ronnebygatan 49", href: "#" },
+		{ name: "371 34 Karlskrona", href: "#" },
+		{ name: "Sweden", href: "#" },
 	],
 	social: [
 		// {
@@ -70,7 +70,7 @@ export default function Footer() {
 			<h2 id="footer-heading" className="sr-only">
 				Footer
 			</h2>
-			<div className="mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 bg-[#154c79]">
+			<div className="mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 bg-[#000099]">
 				<div className="xl:grid xl:grid-cols-2 xl:gap-8">
 					<div className="space-y-8 :col-span-2">
 						<img className="h-[50px] w-[150px]" src={logo} />
@@ -95,45 +95,37 @@ export default function Footer() {
 									Together with our Swedish and Bosnian partners we are offering
 									following services:
 								</h3>
-								<ul className="mt-4 text-base font-customfont text-[#fff] md:grid grid-cols-3 gap-4">
+								<ul className="mt-4 text-base font-customfont text-[#fff] md:grid grid-cols-4 gap-4">
 									<li>
 										<p className="font-bold">
 											Manufacturing / Sourcing Services
 										</p>
 										<ul className="list-disc pl-6">
-											<li>CNC Machining</li>
-											<li>Laser Cutting</li>
-											<li>Casting</li>
-											<li>Plastic Injection Dies</li>
-											<li>Plastic Parts</li>
+											<li>CNC Machining & Grinding</li>
+											<li>Sheet Metal & Laser</li>
+											<li>Cutting</li>
+											<li>Die Casting</li>
+											<li>Surface Treatment</li>
+											<li>Hardening</li>
+											<li>Plastic Injection</li>
+											<li>Assembly</li>
+											<li>QA - PPAP</li>
+											<li>Packaging & Logistics</li>
 										</ul>
 									</li>
 									<li>
 										<p className="font-bold">Engineering Services</p>
 										<ul className="list-disc pl-6">
-											<li>BIM</li>
-											<li>Conceptual Design</li>
-											<li>Production Modeling</li>
-											<li>Tools and Fixture Design</li>
-											<li>Detail Design</li>
-											<li>Rendering</li>
-											<li>PDF to 3D Models</li>
+											<li>Mechanical Design</li>
+											<li>Product Development</li>
 											<li>FEA Calculations</li>
-											<li>Quality Assurance</li>
 										</ul>
 									</li>
 									<li>
-										<p className="font-bold">Packaging & Shipping</p>
+										<p className="font-bold">BIM</p>
 										<ul className="list-disc">
-											<li>
-												Our customers can confirm that our prices and quality
-												are often better than our competitors in Asia and our
-												delivery times are much shorter.
-											</li>
-											<li>
-												Transport by truck from the Balkans to Sweden can be
-												done in only few days
-											</li>
+											<li>Scanning</li>
+											<li>Modeling</li>
 										</ul>
 									</li>
 								</ul>

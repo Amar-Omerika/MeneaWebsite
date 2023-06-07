@@ -50,11 +50,11 @@ export default function AboutUsHome() {
 						Quick Introduction
 					</h2>
 					<p className="mt-6 text-lg leading-8 text-white font-customfont">
-						Menea AB is a trading and consulting company with a solid and
-						reliable supplier network in south-eastern Europe. Together with our
-						partners we offer high class manufacturing and engineering services.
-						Most of our suppliers are located in Bosnia-Herzegovina and
-						Slovenia. Our local staff monitor QA, packing and logistics to
+						Menea AB is a Swedish trading and consulting company with a solid
+						and reliable supplier network in south-eastern Europe. Together with
+						our partners we offer high class manufacturing and engineering
+						services. Most of our suppliers are located in Bosnia-Herzegovina
+						and Slovenia. Our local staff monitor QA, packing and logistics to
 						ensure customer satisfaction.
 					</p>
 				</div>

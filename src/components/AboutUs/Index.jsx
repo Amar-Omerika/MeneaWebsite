@@ -127,7 +127,7 @@ export default function About() {
 				<div className="mx-auto mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8 mb-12">
 					<div className="relative isolate overflow-hidden bg-[#0c0c34] px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
 						<h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl font-customfont">
-							Our customers love us
+							We are very modest… ☺
 						</h2>
 						<p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-white font-customfont">
 							Our customers comes from different areas as Energy, Automation,
@@ -136,13 +136,27 @@ export default function About() {
 							areas and are located on 4 different continents.
 						</p>
 						<div
-							//  className="mx-auto mt-20 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:max-w-4xl lg:grid-cols-5"
-							className="mx-auto mt-20  max-w-lg items-center flex sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:max-w-4xl lg:grid-cols-5"
+							className="mx-auto mt-20 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:max-w-4xl lg:grid-cols-5"
+							// className="mx-auto mt-20 max-w-lg items-center flex sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:max-w-4xl lg:grid-cols-5"
 						>
 							<img
 								className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
 								src="/images/About/SPA.png"
 								alt="SPA"
+								width={158}
+								height={48}
+							/>
+							<img
+								className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+								src="/images/About/UDD.png"
+								alt="UDD"
+								width={158}
+								height={48}
+							/>
+							<img
+								className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 "
+								src="/images/About/HIT.jpg"
+								alt="HIT"
 								width={158}
 								height={48}
 							/>

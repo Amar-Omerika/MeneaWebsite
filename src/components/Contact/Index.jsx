@@ -7,7 +7,8 @@ const people = [
 		name: "Elvis Nazdrajic",
 		role: "Sales&Quality",
 		company: "Menea AB",
-		adress: "Ronnebygatan 49 371 34 Karlskrona",
+		adress: "Ronnebygatan 49",
+		postalCode: "371 34 Karlskrona",
 		location: "Sweeden",
 		email: "elvis@menea.se",
 		number1: "SWE +46 (0) 733 96 03 15",
@@ -43,7 +44,7 @@ export default function Index() {
 								>
 									<li
 										key={person.name}
-										className="rounded-2xl bg-[#063970] opacity-90 px-8 py-10 font-customfont"
+										className="rounded-2xl bg-[#000099] opacity-90 px-8 py-10 font-customfont"
 									>
 										<img
 											className="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56 object-cover"
@@ -63,6 +64,7 @@ export default function Index() {
 											>
 												<li>{person.company}</li>
 												<li>{person.adress}</li>
+												<li>{person.postalCode}</li>
 												<li>{person.location}</li>
 											</ul>
 											<ul
@@ -71,7 +73,6 @@ export default function Index() {
 											>
 												<li>{person.email}</li>
 												<li>{person.number1}</li>
-												<li>{person.number2}</li>
 											</ul>
 										</div>
 									</li>

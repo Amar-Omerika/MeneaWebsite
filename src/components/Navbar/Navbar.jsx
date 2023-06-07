@@ -54,15 +54,14 @@ function Navbar() {
 					link: "/manufacturing/assembly",
 				},
 				{
+					name: "QA - PPAP",
+					link: "/manufacturing/qa",
+				},
+				{
 					name: "Packaging & Logistics",
 					link: "/manufacturing/packaging-logistics",
 				},
 			],
-		},
-		{
-			name: "QA",
-			link: "/QA",
-			sublinks: [],
 		},
 		{
 			name: "Engineering",
