@@ -75,7 +75,7 @@ export default function About() {
 									<div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
 										<div className="relative">
 											<img
-												src="/images/About/about1.png"
+												src="/images/QA/Qa1.png"
 												alt=""
 												className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
 											/>
@@ -93,7 +93,7 @@ export default function About() {
 										</div>
 										<div className="relative">
 											<img
-												src="/images/About/about3.jpg"
+												src="/images/Engineering/engineering2.jpg"
 												alt=""
 												className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
 											/>
@@ -103,17 +103,17 @@ export default function About() {
 									<div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
 										<div className="relative">
 											<img
-												src="/images/About/about4.jpg"
+												src="/images/CNCMachiningGrinding/machining2.jpg"
 												alt=""
-												className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+												className="aspect-[3/4] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
 											/>
 											<div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
 										</div>
 										<div className="relative">
 											<img
-												src="/images/About/about6.jpg"
+												src="/images/CNCMachiningGrinding/machining4.jpg"
 												alt=""
-												className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+												className="aspect-[5/6] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
 											/>
 											<div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
 										</div>
@@ -127,7 +127,7 @@ export default function About() {
 				<div className="mx-auto mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8 mb-12">
 					<div className="relative isolate overflow-hidden bg-[#0c0c34] px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
 						<h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl font-customfont">
-							We are very modest… ☺
+							Our customers
 						</h2>
 						<p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-white font-customfont">
 							Our customers comes from different areas as Energy, Automation,

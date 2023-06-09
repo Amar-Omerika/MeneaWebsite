@@ -1,8 +1,8 @@
 /* eslint-disable no-undef */
-import React, { useState } from "react";
+import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
-export const ViewImageModal = ({ image, showFullImage, setShowFullImage }) => {
+export const ViewImageModal = ({ image, setShowFullImage }) => {
 	const handleCloseModal = () => {
 		setShowFullImage((prevValue) => !prevValue);
 	};
@@ -31,7 +31,7 @@ export const ViewImageModal = ({ image, showFullImage, setShowFullImage }) => {
 							<img
 								src={image}
 								alt="test"
-								className="object-cover laptop:w-[500px] laptop:h-[500px] mt-4 tablet:w-[50px] tablet:h-[50px]"
+								className="relative laptop:w-[700px] laptop:h-[550px] mt-4 tablet:w-[50px] tablet:h-[50px] aspect-[2/3] "
 							/>
 						</div>
 					</div>
