@@ -58,7 +58,10 @@ function LinkPage({ link }) {
 										imageRoute={imageRoute}
 										setImageRoute={setImageRoute}
 									/>
-									<p className="laptop:w-1/2 font-customfont font-[600]">
+									<p
+										className="laptop:w-1/2 font-customfont font-[600] ml-2"
+										style={{ whiteSpace: "pre-line" }}
+									>
 										{item.content}
 									</p>
 								</div>
