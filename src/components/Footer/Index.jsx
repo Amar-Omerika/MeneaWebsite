@@ -73,7 +73,7 @@ export default function Footer() {
 			<div className="mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 bg-[#000099]">
 				<div className="xl:grid xl:grid-cols-2 xl:gap-8">
 					<div className="space-y-8 :col-span-2">
-						<img className="h-[50px] w-[150px]" src={logo} />
+						<img className="laptop:h-[70px] laptop:w-[170px]" src={logo} />
 
 						<div className="flex space-x-6 justify-center">
 							{navigation.social.map((item) => (

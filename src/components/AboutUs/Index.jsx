@@ -75,7 +75,7 @@ export default function About() {
 									<div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
 										<div className="relative">
 											<img
-												src="/images/QA/Qa1.png"
+												src="/images/QA/Qa6.png"
 												alt=""
 												className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
 											/>

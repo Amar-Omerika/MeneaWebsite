@@ -158,7 +158,7 @@ function Navbar() {
 							>
 								<span>
 									<img
-										className="h-[30px] w-[80px] laptop:h-[50px] laptop:w-[150px]"
+										className="h-[30px] w-[80px] laptop:h-[70px] laptop:w-[170px]"
 										src={logo}
 									/>
 								</span>
