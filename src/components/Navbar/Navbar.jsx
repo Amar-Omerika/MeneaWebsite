@@ -1,11 +1,10 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import NavLinks from "./NavLinks";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { AnimatePresence, motion } from "framer-motion";
 import logo from "../../assets/menea_logo1.gif";
-import menea_text_logo from "../../assets/menea.png";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -66,64 +65,17 @@ function Navbar() {
 		{
 			name: "Engineering",
 			link: "/engineering",
-			sublinks: [
-				// {
-				// 	name: "CAD to BIM  Model",
-				// 	link: "/bim-services/cad-to-bim-model",
-				// },
-				// {
-				// 	name: "Scan to BIM  Model",
-				// 	link: "/bim-services/scan-to-bim-model",
-				// },
-				// {
-				// 	name: "PDF to BIM  Model",
-				// 	link: "/bim-services/pdf-to-bim-model",
-				// },
-				// {
-				// 	name: "BIM Families Creation",
-				// 	link: "/bim-services/bim-families-creation",
-				// },
-				// {
-				// 	name: "Scanning",
-				// 	link: "/bim-services/scanning",
-				// },
-			],
+			sublinks: [],
 		},
 		{
 			name: "BIM",
 			link: "/bim",
-			sublinks: [
-				// {
-				// 	name: "Quality management",
-				// 	link: "/consultion/quality-management",
-				// },
-				// {
-				// 	name: "Project management",
-				// 	link: "/consultion/project-management",
-				// },
-				// {
-				// 	name: "Purchasing",
-				// 	link: "/consultion/purchasing",
-				// },
-			],
+			sublinks: [],
 		},
 		{
 			name: "Contact",
 			link: "/contact",
-			sublinks: [
-				// {
-				// 	name: "Quality management",
-				// 	link: "/consultion/quality-management",
-				// },
-				// {
-				// 	name: "Project management",
-				// 	link: "/consultion/project-management",
-				// },
-				// {
-				// 	name: "Purchasing",
-				// 	link: "/consultion/purchasing",
-				// },
-			],
+			sublinks: [],
 		},
 	];
 
