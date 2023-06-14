@@ -97,6 +97,12 @@ export default function SliderComponent() {
 						src="images/QA/Qa3.jpg"
 					/>
 				</SwiperSlide>
+				<SwiperSlide>
+					<img
+						className="object-cover w-full h-[500px]"
+						src="images/CNCMachiningGrinding/combinedpic1.png"
+					/>
+				</SwiperSlide>
 			</Swiper>
 		</AnimatePresence>
 	);

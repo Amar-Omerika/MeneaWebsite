@@ -9,7 +9,7 @@ const people = [
 		company: "Menea AB",
 		adress: "Ronnebygatan 49",
 		postalCode: "371 34 Karlskrona",
-		location: "Sweeden",
+		location: "Sweden",
 		email: "elvis@menea.se",
 		number1: "SWE +46 (0) 733 96 03 15",
 		number2: "B&H +387 (0) 62 77 95 83",

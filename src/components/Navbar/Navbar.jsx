@@ -22,7 +22,7 @@ function Navbar() {
 		},
 		{
 			name: "Manufacturing",
-			link: "/manufacturing/cnc-machining-grinding",
+			link: "/manufacturinghome",
 			sublinks: [
 				{
 					name: "CNC Machining & Grinding",
@@ -110,7 +110,7 @@ function Navbar() {
 							>
 								<span>
 									<img
-										className="h-[30px] w-[80px] laptop:h-[70px] laptop:w-[170px]"
+										className="h-[30px] w-[80px] laptop:h-[60px] laptop:w-[220px]"
 										src={logo}
 									/>
 								</span>

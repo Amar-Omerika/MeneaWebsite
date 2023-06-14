@@ -103,7 +103,7 @@ export default function About() {
 									<div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
 										<div className="relative">
 											<img
-												src="/images/CNCMachiningGrinding/machining2.jpg"
+												src="/images/HardeningImages/Hardening-0.png"
 												alt=""
 												className="aspect-[3/4] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
 											/>
@@ -111,7 +111,7 @@ export default function About() {
 										</div>
 										<div className="relative">
 											<img
-												src="/images/CNCMachiningGrinding/machining4.jpg"
+												src="/images/Engineering/engineering5.jpg"
 												alt=""
 												className="aspect-[5/6] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
 											/>

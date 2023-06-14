@@ -25,7 +25,7 @@
 				{
 					"id": "sheetmetal-lasercutting",
 					"title": "Sheet Metal & Laser Cutting",
-					"content": "We laser cut in most type of materials.There are many advantages to choosing laser cutting. Firstly, our laser cutters have high precision and provide fine and precise cuts in your material. With laser cutting, you can get both complicated patterns and straight lines. Because the laser beam is so thin, very little material is spilled. Materials that have been cut with a laser also do not need to be post-processed, which means that production is faster than with other methods.We provide laser cutting, bending, welding, riveting, coating  and assembling of sheet metal.Today we produce everything from shims for industrial fixtures to component plates for electrical cabinets.",
+					"content": "We laser cut in most type of materials.\n There are many advantages to choosing laser cutting. Firstly, our laser cutters have high precision and provide fine and precise cuts in your material. With laser cutting, you can get both complicated patterns and straight lines. Because the laser beam is so thin, very little material is spilled. Materials that have been cut with a laser also do not need to be post-processed, which means that production is faster than with other methods.\n We provide:\n• laser cutting\n• bending\n• welding\n• riveting\n• coating  and assembling of sheet metal \n Today we produce everything from shims for industrial fixtures to component plates for electrical cabinets.",
 					"images": [
 						"/images/SheetMetalLaserCutting/sheetmetal1.jpg",
 						"/images/SheetMetalLaserCutting/sheetmetal2.png",
@@ -40,7 +40,7 @@
 				{
 					"id": "die-casting",
 					"title": "Die Casting",
-					"content": "We offer high quality die casting parts and molds for different types of iron, aluminium and aluminium bronze.When it comes to aluminium we offer:\n•Gravity casting,\n• Low pressure casting,\n• High pressure die casting,\n• In most cases we also offer additional CNC machining of casted parts and molds.",
+					"content": "We offer high quality die casting parts and molds for different types of iron, aluminium and aluminium bronze.When it comes to aluminium we offer:\n• Gravity casting\n• Low pressure casting\n• High pressure die casting\n• In most cases we also offer additional CNC machining of casted parts and molds.",
 					"images": [
 						"/images/DieCasting/diecasting1.jpg",
 						"/images/DieCasting/diecasting2.jpg",
@@ -51,7 +51,7 @@
 				{
 					"id": "surface-treatment",
 					"title": "Surface Treatment",
-					"content": "We carry out most types of surface treatment:\n• Electric Galvanization,\n• Hot dip galvanization,\n• Anodizing in different colours,\n• Manganese Phosphating,\n• Black Oxidizing,\n• AlCrN Top,\n• And more",
+					"content": "We carry out most types of surface treatment:\n• Electric Galvanization\n• Hot dip galvanization\n• Anodizing in different colours\n• Manganese Phosphating\n• Black Oxidizing\n• AlCrN Top\n• And more\n After hardening we can grind and machine parts to compen.",
 					"images": [
 						"/images/SurfaceTreatment/surfacetreatment1.jpg",
 						"/images/SurfaceTreatment/surfacetreatment2.jpg",
@@ -62,7 +62,7 @@
 				{
 					"id": "hardening",
 					"title": "Hardening",
-					"content": "We harden and temper your products with following methods:\n• Through hardening (neutral hardening),\n• Case Hardening,\n• Induction Hardening,\n• Nitriding,\n• And more.After hardening we can grind and machine parts to compensate for material deviations",
+					"content": "We harden and temper your products with following methods:\n• Through hardening (neutral hardening)\n• Case Hardening\n• Induction Hardening\n• Nitriding\n• And more.After hardening we can grind and machine parts to compensate for material deviations",
 					"images": [
 						"/images/HardeningImages/Hardening-0.png",
 						"/images/HardeningImages/Hardening-1.jpg"
@@ -95,7 +95,7 @@
 				{
 					"id": "qa",
 					"title": "QA - PPAP",
-					"content": "Our local staff monitor quality assurance, logistics and delivery time.Together with our partners we continuously analyse customer drawings and specifications. Every now and then we submit improvement proposals to our customers that can result in cost savings and/or increased product quality.We provide outturn samples and QA documentation (PPAP) that can include:\n• Material certificate,\n• Measurement protocol (Cp/Cpk analysis),\n• Surface treatment certificate,\n• D-Map,\n• Control plan,\n• Drawings with measurement specification,\n• All of the measurement protocols include traceability  to produced parts.",
+					"content": "Our local staff monitor quality assurance, logistics and delivery time.\n Together with our partners we continuously analyse customer drawings and specifications. Every now and then we submit improvement proposals to our customers that can result in cost savings and/or increased product quality.\n We provide outturn samples and QA documentation (PPAP) that can include:\n• Material certificate\n• Measurement protocol (Cp/Cpk analysis)\n• Surface treatment certificate\n• D-Map\n• Control plan\n• Drawings with measurement specification\n All of the measurement protocols include traceability to produced parts.",
 					"images": [
 						"/images/QA/Qa1.png",
 						"/images/QA/Qa2.jpg",
@@ -108,7 +108,7 @@
 				{
 					"id": "packaging-logistics",
 					"title": "Packaging & Logistics",
-					"content": "Manufactured items are always carefully packed.They can also be packed and marked according to customers preference.We have local staff to monitor logistics.With our manufacturing in Bosnia-Herzegovina, Slovenia and Croatia we can offer much shorter shipping time to European countries than our oversea competitors, often to better quality and landed cost.Our main market is Scandinavia but today we also deliver to our customers subsidiaries in Brazil, USA, China and Balkan countries.",
+					"content": "Manufactured items are always carefully packed.They can also be packed and marked according to customers preference.\n We have local staff to monitor logistics.With our manufacturing in Bosnia-Herzegovina, Slovenia and Croatia we can offer much shorter shipping time to European countries than our oversea competitors, often to better quality and landed cost.\n Our main market is Scandinavia but today we also deliver to our customers subsidiaries in Brazil, USA, China and Balkan countries.",
 					"images": [
 						"/images/PackagingLogistics/Packaging2.jpg",
 						"/images/PackagingLogistics/Packaging3.jpg",
@@ -121,7 +121,7 @@
 				{
 					"id": "engineering",
 					"title": "engineering",
-					"content": "Together with our partners we provide mechanical engineering services to various type of industries. If possible, our team prefer to be involved in the beginning of the design process that in the long term leads to cost effective solutions. Our flexible resources can also be hired at customer site.We have vast experience in design of:\n• Winches\n• Have duty cranes\n• Lifting equipment with documentation\n• Fixtures\n• Robot cells\n• Plastic injection tools\n• Punching tools\n• R&D (Product development)\n• Piping\n• PDF to 3D model design\n• 2D drawings from CAD\n• FEA Calculations",
+					"content": "Together with our partners we provide mechanical engineering services to various type of industries. If possible, our team prefer to be involved in the beginning of the design process that in the long term leads to cost effective solutions. Our flexible resources can also be hired at customer site.\n We have vast experience in design of:\n• Winches\n• Have duty cranes\n• Lifting equipment with documentation\n• Fixtures\n• Robot cells\n• Plastic injection tools\n• Punching tools\n• R&D (Product development)\n• Piping\n• PDF to 3D model design\n• 2D drawings from CAD\n• FEA Calculations",
 					"images": [
 						"/images/Engineering/engineering1.jpg",
 						"/images/Engineering/engineering2.jpg",
@@ -136,7 +136,7 @@
 				{
 					"id": "bim",
 					"title": "bim",
-					"content": "Together with our partner company we can provide Scanning and deliver BIM models with MEP from Point Cloud or pdf drawings in purpose to improve our customers work on site. We deliver models in LOD 200-500 depending on customer demands.Benefits from using BIM in your projects are many:\n• Better visualization of project\n• Clash detection in early phase\n• Better documentations for future rebuild and maintenance\n• Higher efficiency in project execution.We have long term experience with modeling of different type of facilities:\n• Factories\n• Process Industries\n• Residential properties\n• Warehouses\n• Purification plants\n• Water treatment plants\n• Government buildings",
+					"content": "Together with our partner company we can provide Scanning and deliver BIM models with MEP from Point Cloud or pdf drawings in purpose to improve our customers work on site. We deliver models in LOD 200-500 depending on customer demands.\n Benefits from using BIM in your projects are many:\n• Better visualization of project\n• Clash detection in early phase\n• Better documentations for future rebuild and maintenance\n• Higher efficiency in project execution.We have long term experience with modeling of different type of facilities:\n• Factories\n• Process Industries\n• Residential properties\n• Warehouses\n• Purification plants\n• Water treatment plants\n• Government buildings",
 					"images": [
 						"/images/BIM/bim1.jpg",
 						"/images/BIM/bim2.jpg",
@@ -156,6 +156,19 @@
 				{
 					"id": "contact",
 					"title": "contact"
+				}
+			],
+			"manufacturinghome": [
+				{
+					"id": "manufacturinghome",
+					"title": "manufacturing",
+					"content": "We offer following manufacturing services:\n• CNC Machining & Grinding\n• Sheet Metal & Laser Cutting\n• Die Casting\n• Surface Treatment\n• Hardening\n• Plastic Injection\n• Assembly\n• QA - PPAP\n• Packaging & Logistics",
+					"images": [
+						"/images/BIM/bim1.jpg",
+						"/images/BIM/bim2.jpg",
+						"/images/BIM/bim3.jpg"
+					],
+					"bgImage": "/images/Manufacturing/manufacturing1.jpg"
 				}
 			]
 		}
