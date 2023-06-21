@@ -126,7 +126,6 @@
 						"/images/Engineering/engineering1.jpg",
 						"/images/Engineering/engineering2.jpg",
 						"/images/Engineering/engineering3.jpg",
-						"/images/Engineering/engineering4.jpg",
 						"/images/Engineering/engineering5.jpg"
 					],
 					"bgImage": "/images/Engineering/engineering1.jpg"
@@ -140,9 +139,17 @@
 					"images": [
 						"/images/BIM/bim1.jpg",
 						"/images/BIM/bim2.jpg",
-						"/images/BIM/bim3.jpg"
+						"/images/BIM/bim3.jpg",
+						"/images/BIM/bim4.jpg",
+						"/images/BIM/bim5.jpg",
+						"/images/BIM/bim6.jpg",
+						"/images/BIM/bim7.jpg",
+						"/images/BIM/bim8.jpg",
+						"/images/BIM/bim9.jpg",
+						"/images/BIM/bim10.jpg",
+						"/images/BIM/bim11.jpg"
 					],
-					"bgImage": "/images/BIM/bim1.jpg"
+					"bgImage": "/images/BIM/bim4.jpg"
 				}
 			],
 			"about": [
@@ -156,19 +163,6 @@
 				{
 					"id": "contact",
 					"title": "contact"
-				}
-			],
-			"manufacturinghome": [
-				{
-					"id": "manufacturinghome",
-					"title": "manufacturing",
-					"content": "We offer following manufacturing services:\n• CNC Machining & Grinding\n• Sheet Metal & Laser Cutting\n• Die Casting\n• Surface Treatment\n• Hardening\n• Plastic Injection\n• Assembly\n• QA - PPAP\n• Packaging & Logistics",
-					"images": [
-						"/images/BIM/bim1.jpg",
-						"/images/BIM/bim2.jpg",
-						"/images/BIM/bim3.jpg"
-					],
-					"bgImage": "/images/Manufacturing/manufacturing1.jpg"
 				}
 			]
 		}

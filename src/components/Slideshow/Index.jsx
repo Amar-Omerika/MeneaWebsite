@@ -12,7 +12,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function SliderComponent() {
-	//resizing images depending on the screen size
+	//check the size of an screen
 	const [screenSize, setScreenSize] = useState({
 		width: window.innerWidth,
 		height: window.innerHeight,

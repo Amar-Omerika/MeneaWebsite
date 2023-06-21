@@ -22,7 +22,7 @@ function Navbar() {
 		},
 		{
 			name: "Manufacturing",
-			link: "/manufacturinghome",
+			link: "/",
 			sublinks: [
 				{
 					name: "CNC Machining & Grinding",
