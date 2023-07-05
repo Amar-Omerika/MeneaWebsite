@@ -74,12 +74,12 @@
 					"title": "Plastic injection",
 					"content": "Menea AB is working with partners that are known for high level of molding expertise, development of plastic injecton tools and product development. We are a pride supplier of plastic parts to some of the world leading companies in different industries in Europe and USA.",
 					"images": [
-						"/images/PlasticInjectionImages/Plastic-1.jpg",
-						"/images/PlasticInjectionImages/Plastic-2.jpg",
-						"/images/PlasticInjectionImages/Plastic-3.jpg",
-						"/images/PlasticInjectionImages/Plastic-4.jpg"
+						"/images/PlasticInjection/Plastic1.jpg",
+						"/images/PlasticInjection/Plastic2.jpg",
+						"/images/PlasticInjection/Plastic3.jpg",
+						"/images/PlasticInjection/Plastic4.jpg"
 					],
-					"bgImage": "/images/PlasticInjectionImages/PlasticInjection-Wallpaper.jpg"
+					"bgImage": "/images/PlasticInjection/PlasticInjection-Wallpaper.jpg"
 				},
 				{
 					"id": "assembly",
